@@ -1,0 +1,21 @@
+(ql:quickload :hunchentoot)
+
+(defpackage :bennettroesch
+  (:use :common-lisp :hunchentoot))
+
+(in-package :bennettroesch)
+
+;; Needed if you set :error-template-directory in the easy-acceptor
+(setf hunchentoot::*show-lisp-errors-p* t)
+
+(defvar bennettroesch-server
+  (make-instance 'hunchentoot:easy-acceptor
+                 :document-root "web-root"
+                 :error-template-directory "web-root/error-templates/"
+                 :access-log-destination "logs/access.log"
+                 :message-log-destination "logs/error.log"
+                 :port 8081))
+
+(load "routes.lisp")
+
+(hunchentoot:start bennettroesch-server)
