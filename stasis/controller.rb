@@ -1,0 +1,1 @@
+layout 'layouts/general.haml'
