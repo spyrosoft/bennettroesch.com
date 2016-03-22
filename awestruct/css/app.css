@@ -122,21 +122,9 @@
 body {
   background-image: url("/images/down.gif"); }
 
-.menu-icon::after, .menu-icon:hover::after {
-  background-color: #ffffff;
-  box-shadow: 0 7px 0 #ffffff, 0 14px #ffffff; }
-
-.is-drilldown-submenu {
-  background-color: #ffffff; }
-
-.is-drilldown-submenu-parent > a::after {
-  border-color: transparent transparent transparent #ffffff; }
-
-.js-drilldown-back::before {
-  border-color: transparent #000000 transparent transparent; }
-
-.is-drilldown-submenu a {
-  color: #000000; }
+.transparent {
+  background-color: transparent;
+  border-color: transparent; }
 
 [type=text], [type=password], [type=date], [type=datetime], [type=datetime-local], [type=month], [type=week], [type=email], [type=number], [type=search], [type=tel], [type=time], [type=url], [type=color], textarea, select {
   background-color: #000000;
@@ -148,35 +136,6 @@ body {
   color: #000000;
   border-color: #000000; }
 
-.invert .menu-icon::after, .invert .menu-icon:hover::after,
-.invert .invert .invert .menu-icon::after,
-.invert .invert .invert .menu-icon:hover::after,
-.invert .invert .invert .invert .invert .menu-icon::after,
-.invert .invert .invert .invert .invert .menu-icon:hover::after,
-.invert .invert .invert .invert .invert .invert .invert .menu-icon::after,
-.invert .invert .invert .invert .invert .invert .invert .menu-icon:hover::after {
-  background-color: #000000;
-  box-shadow: 0 7px 0 #000000, 0 14px #000000; }
-.invert .is-drilldown-submenu,
-.invert .invert .invert .is-drilldown-submenu,
-.invert .invert .invert .invert .invert .is-drilldown-submenu,
-.invert .invert .invert .invert .invert .invert .invert .is-drilldown-submenu {
-  background-color: #000000; }
-.invert .is-drilldown-submenu-parent > a::after,
-.invert .invert .invert .is-drilldown-submenu-parent > a::after,
-.invert .invert .invert .invert .invert .is-drilldown-submenu-parent > a::after,
-.invert .invert .invert .invert .invert .invert .invert .is-drilldown-submenu-parent > a::after {
-  border-color: transparent transparent transparent #000000; }
-.invert .js-drilldown-back::before,
-.invert .invert .invert .js-drilldown-back::before,
-.invert .invert .invert .invert .invert .js-drilldown-back::before,
-.invert .invert .invert .invert .invert .invert .invert .js-drilldown-back::before {
-  border-color: transparent #000000 transparent transparent; }
-.invert .is-drilldown-submenu a,
-.invert .invert .invert .is-drilldown-submenu a,
-.invert .invert .invert .invert .invert .is-drilldown-submenu a,
-.invert .invert .invert .invert .invert .invert .invert .is-drilldown-submenu a {
-  color: #ffffff; }
 .invert [type=text], .invert [type=password], .invert [type=date], .invert [type=datetime], .invert [type=datetime-local], .invert [type=month], .invert [type=week], .invert [type=email], .invert [type=number], .invert [type=search], .invert [type=tel], .invert [type=time], .invert [type=url], .invert [type=color], .invert textarea, .invert select,
 .invert .invert .invert [type=text],
 .invert .invert .invert [type=password],
@@ -282,35 +241,6 @@ body {
   color: #ffffff;
   border-color: #ffffff; }
 
-.invert .invert .menu-icon::after, .invert .invert .menu-icon:hover::after,
-.invert .invert .invert .invert .menu-icon::after,
-.invert .invert .invert .invert .menu-icon:hover::after,
-.invert .invert .invert .invert .invert .invert .menu-icon::after,
-.invert .invert .invert .invert .invert .invert .menu-icon:hover::after,
-.invert .invert .invert .invert .invert .invert .invert .invert .menu-icon::after,
-.invert .invert .invert .invert .invert .invert .invert .invert .menu-icon:hover::after {
-  background-color: #ffffff;
-  box-shadow: 0 7px 0 #ffffff, 0 14px #ffffff; }
-.invert .invert .is-drilldown-submenu,
-.invert .invert .invert .invert .is-drilldown-submenu,
-.invert .invert .invert .invert .invert .invert .is-drilldown-submenu,
-.invert .invert .invert .invert .invert .invert .invert .invert .is-drilldown-submenu {
-  background-color: #ffffff; }
-.invert .invert .is-drilldown-submenu-parent > a::after,
-.invert .invert .invert .invert .is-drilldown-submenu-parent > a::after,
-.invert .invert .invert .invert .invert .invert .is-drilldown-submenu-parent > a::after,
-.invert .invert .invert .invert .invert .invert .invert .invert .is-drilldown-submenu-parent > a::after {
-  border-color: transparent transparent transparent #ffffff; }
-.invert .invert .js-drilldown-back::before,
-.invert .invert .invert .invert .js-drilldown-back::before,
-.invert .invert .invert .invert .invert .invert .js-drilldown-back::before,
-.invert .invert .invert .invert .invert .invert .invert .invert .js-drilldown-back::before {
-  aborder-color: transparent #ffffff transparent transparent; }
-.invert .invert .is-drilldown-submenu a,
-.invert .invert .invert .invert .is-drilldown-submenu a,
-.invert .invert .invert .invert .invert .invert .is-drilldown-submenu a,
-.invert .invert .invert .invert .invert .invert .invert .invert .is-drilldown-submenu a {
-  color: #000000; }
 .invert .invert [type=text], .invert .invert [type=password], .invert .invert [type=date], .invert .invert [type=datetime], .invert .invert [type=datetime-local], .invert .invert [type=month], .invert .invert [type=week], .invert .invert [type=email], .invert .invert [type=number], .invert .invert [type=search], .invert .invert [type=tel], .invert .invert [type=time], .invert .invert [type=url], .invert .invert [type=color], .invert .invert textarea, .invert .invert select,
 .invert .invert .invert .invert [type=text],
 .invert .invert .invert .invert [type=password],
@@ -421,15 +351,16 @@ h1, h2, h3, h4, h5, h6 {
   line-height: 100%; }
 
 h1, h2, h3, h4, h5, h6 {
-  padding: 2rem;
+  padding: 2rem 0;
   margin: 0; }
 
 ul, ol {
   margin-left: 2rem;
   margin-top: 0; }
 
-.menu-icon {
-  margin: 0.5rem; }
+.page-content {
+  padding-left: 2rem;
+  padding-right: 2rem; }
 
 .column:last-child:not(:first-child), .columns:last-child:not(:first-child) {
   float: left; }
@@ -443,6 +374,9 @@ ul, ol {
 .no-spacing {
   margin: 0 auto;
   padding: 0; }
+
+.column-height-14 .columns {
+  min-height: 14rem; }
 
 /* General */
 a {

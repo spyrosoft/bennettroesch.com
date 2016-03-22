@@ -38,20 +38,9 @@ h1, h2, h3, h4, h5, h6, a, a:hover, a:visited, a:focus
 	@extend .inverted-fg-color
 	@extend .inverted-bg-color
 
-.menu-icon::after, .menu-icon:hover::after
-	background-color: $fg-color-primary
-	box-shadow: 0 7px 0 $fg-color-primary, 0 14px $fg-color-primary
-
-.is-drilldown-submenu
-	background-color: $fg-color-primary
-
-.is-drilldown-submenu-parent>a::after
-	border-color: transparent transparent transparent $fg-color-primary
-.js-drilldown-back::before
-	border-color: transparent $bg-color-primary transparent transparent
-
-.is-drilldown-submenu a
-	color: $bg-color-primary
+.transparent
+	background-color: transparent
+	border-color: transparent
 
 [type=text], [type=password], [type=date], [type=datetime], [type=datetime-local], [type=month], [type=week], [type=email], [type=number], [type=search], [type=tel], [type=time], [type=url], [type=color], textarea, select
 	background-color: $bg-color-primary
@@ -80,22 +69,6 @@ h1, h2, h3, h4, h5, h6, a, a:hover, a:visited, a:focus
 	.button:hover, .button:focus
 		@extend .inverted-fg-color
 		@extend .inverted-bg-color
-	
-	.menu-icon::after, .menu-icon:hover::after
-		background-color: $bg-color-primary
-		box-shadow: 0 7px 0 $bg-color-primary, 0 14px $bg-color-primary
-	
-	.is-drilldown-submenu
-		background-color: $bg-color-primary
-	
-	.is-drilldown-submenu-parent>a::after
-		border-color: transparent transparent transparent $bg-color-primary
-	
-	.js-drilldown-back::before
-		border-color: transparent $bg-color-primary transparent transparent
-	
-	.is-drilldown-submenu a
-		color: $fg-color-primary
 	
 	[type=text], [type=password], [type=date], [type=datetime], [type=datetime-local], [type=month], [type=week], [type=email], [type=number], [type=search], [type=tel], [type=time], [type=url], [type=color], textarea, select
 		background-color: $fg-color-primary
@@ -127,22 +100,6 @@ h1, h2, h3, h4, h5, h6, a, a:hover, a:visited, a:focus
 		@extend .standard-fg-color
 		@extend .standard-bg-color
 	
-	.menu-icon::after, .menu-icon:hover::after
-		background-color: $fg-color-primary
-		box-shadow: 0 7px 0 $fg-color-primary, 0 14px $fg-color-primary
-	
-	.is-drilldown-submenu
-		background-color: $fg-color-primary
-	
-	.is-drilldown-submenu-parent>a::after
-		border-color: transparent transparent transparent $fg-color-primary
-	
-	.js-drilldown-back::before
-		aborder-color: transparent $fg-color-primary transparent transparent
-	
-	.is-drilldown-submenu a
-		color: $bg-color-primary
-	
 	[type=text], [type=password], [type=date], [type=datetime], [type=datetime-local], [type=month], [type=week], [type=email], [type=number], [type=search], [type=tel], [type=time], [type=url], [type=color], textarea, select
 		background-color: $bg-color-primary
 		color: $fg-color-primary
@@ -160,15 +117,16 @@ h1, h2, h3, h4, h5, h6
 	line-height: 100%
 
 h1, h2, h3, h4, h5, h6
-	padding: $medium-spacing
+	padding: $medium-spacing 0
 	margin: 0
 
 ul, ol
 	margin-left: $medium-spacing
 	margin-top: 0
 
-.menu-icon
-	margin: 0.5rem
+.page-content
+	padding-left: $medium-spacing
+	padding-right: $medium-spacing
 
 .column:last-child:not(:first-child), .columns:last-child:not(:first-child)
 	float: left
@@ -182,6 +140,10 @@ ul, ol
 .no-spacing
 	margin: 0 auto
 	padding: 0
+
+.column-height-14 .columns
+	min-height: 14rem
+	
 
 
 /* General
