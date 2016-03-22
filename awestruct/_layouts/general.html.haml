@@ -1,0 +1,25 @@
+!!! 5
+%html.no-js{lang: 'en-US'}
+  %head
+    %meta{charset: 'utf-8'}
+    %title #{page.title} - #{site.title}
+    %meta{'http-equiv' => 'x-ua-compatible', content: 'ie=edge'}
+    %meta{name: 'viewport', content:'width=device-width, initial-scale=1'}
+    
+    %link{rel: 'shortcut icon', href: '/images/favicon.gif'}
+    
+    %meta{name: 'description', content: page.description}
+    
+    %link{href: '/css/foundation.min.css', rel: 'stylesheet'}
+    %link{href: '/css/app.css', rel: 'stylesheet'}
+  %body
+    %main.row.columns.invert
+      ~ content
+    %hr.no-spacing
+    %footer.page.row.columns.invert
+      %a{href: '/', title: 'Home'}
+        %img{src: '/images/blayk.bmp', alt: 'Home'}
+    %script{src: '/js/jquery.min.js'}
+    %script{src: '/js/what-input.min.js'}
+    %script{src: '/js/foundation.min.js'}
+    %script{src: '/js/app.js'}

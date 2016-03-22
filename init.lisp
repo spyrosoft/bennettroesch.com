@@ -10,7 +10,7 @@
 
 (defvar *hunchentoot-directory* (pathname (directory-namestring #.(or *compile-file-pathname* *load-truename*))))
 
-(defvar *web-root-directory* (merge-pathnames "stasis/public/" *hunchentoot-directory*))
+(defvar *web-root-directory* (merge-pathnames "awestruct/_site/" *hunchentoot-directory*))
 
 (defvar bennettroesch-server
   (make-instance 'hunchentoot:easy-acceptor
