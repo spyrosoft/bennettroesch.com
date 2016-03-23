@@ -30,13 +30,21 @@ body
 	@extend .standard-fg-color
 	@extend .standard-bg-color
 	background-image: url( '/images/down.gif' )
+	background-position: center center
 
 h1, h2, h3, h4, h5, h6, a, a:hover, a:visited, a:focus
 	@extend .standard-fg-color
 
+.border-bottom
+	border-bottom: 1px solid $fg-color-primary
+
 .button
 	@extend .inverted-fg-color
 	@extend .inverted-bg-color
+	
+.button:hover, .button:focus
+	@extend .standard-fg-color
+	@extend .standard-bg-color
 
 .transparent
 	background-color: transparent
@@ -61,6 +69,9 @@ h1, h2, h3, h4, h5, h6, a, a:hover, a:visited, a:focus
 	
 	h1, h2, h3, h4, h5, h6, a, a:hover, a:visited, a:focus
 		@extend .inverted-fg-color
+	
+	.border-bottom
+		border-bottom: 1px solid $bg-color-primary
 	
 	.button
 		@extend .standard-fg-color
@@ -92,6 +103,9 @@ h1, h2, h3, h4, h5, h6, a, a:hover, a:visited, a:focus
 	h1, h2, h3, h4, h5, h6, a, a:hover, a:visited, a:focus
 		@extend .standard-fg-color
 	
+	.border-bottom
+		border-bottom: 1px solid $fg-color-primary
+	
 	.button
 		@extend .inverted-fg-color
 		@extend .inverted-bg-color
@@ -113,12 +127,34 @@ h1, h2, h3, h4, h5, h6, a, a:hover, a:visited, a:focus
 
 /* Spacing
 
+main
+	padding-bottom: $medium-spacing
+
+.row
+	max-width: 37rem
+
 h1, h2, h3, h4, h5, h6
 	line-height: 100%
 
 h1, h2, h3, h4, h5, h6
-	padding: $medium-spacing 0
+	padding: $small-spacing 0
 	margin: 0
+
+h1
+	font-size: 1.3rem
+h2
+	font-size: 1.2rem
+h3
+	font-size: 1.1rem
+h4
+	font-size: 1.0rem
+h5
+	font-size: 0.9rem
+h6
+	font-size: 0.8rem
+
+hr
+	margin: $small-spacing auto
 
 ul, ol
 	margin-left: $medium-spacing
@@ -139,17 +175,37 @@ ul, ol
 
 .no-spacing
 	margin: 0 auto
-	padding: 0
+	padding: 0	
 
-.column-height-14 .columns
-	min-height: 14rem
-	
+.small-margin-bottom
+	margin-bottom: $small-spacing
 
 
 /* General
 
 a
 	text-decoration: underline
+
+body
+	font-family: monospace
+
+p
+	text-align: justify
+
+.display-none
+	display: none
+
+.bold
+	font-weight: bold
+
+.italics
+	font-style: italics
+
+.inline-block
+	display: inline-block
+
+.centered
+	margin: 0 auto
 
 
 /* Specific

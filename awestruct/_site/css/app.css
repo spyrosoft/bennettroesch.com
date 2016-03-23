@@ -1,5 +1,5 @@
 /* Colors */
-.standard-fg-color, body, h1, h2, h3, h4, h5, h6, a, a:hover, a:visited, a:focus, .invert .button,
+.standard-fg-color, body, h1, h2, h3, h4, h5, h6, a, a:hover, a:visited, a:focus, .button:hover, .button:focus, .invert .button,
 .invert .invert .invert .button,
 .invert .invert .invert .invert .invert .button,
 .invert .invert .invert .invert .invert .invert .invert .button, .invert .invert,
@@ -44,7 +44,7 @@
 .invert .invert .invert .invert .invert .invert .invert .invert .button:focus {
   color: #ffffff; }
 
-.standard-bg-color, body, .invert .button,
+.standard-bg-color, body, .button:hover, .button:focus, .invert .button,
 .invert .invert .invert .button,
 .invert .invert .invert .invert .invert .button,
 .invert .invert .invert .invert .invert .invert .invert .button, .invert .invert,
@@ -120,7 +120,11 @@
   background-color: rgba(255, 255, 255, 0.98); }
 
 body {
-  background-image: url("/images/down.gif"); }
+  background-image: url("/images/down.gif");
+  background-position: center center; }
+
+.border-bottom {
+  border-bottom: 1px solid #ffffff; }
 
 .transparent {
   background-color: transparent;
@@ -136,6 +140,11 @@ body {
   color: #000000;
   border-color: #000000; }
 
+.invert .border-bottom,
+.invert .invert .invert .border-bottom,
+.invert .invert .invert .invert .invert .border-bottom,
+.invert .invert .invert .invert .invert .invert .invert .border-bottom {
+  border-bottom: 1px solid #000000; }
 .invert [type=text], .invert [type=password], .invert [type=date], .invert [type=datetime], .invert [type=datetime-local], .invert [type=month], .invert [type=week], .invert [type=email], .invert [type=number], .invert [type=search], .invert [type=tel], .invert [type=time], .invert [type=url], .invert [type=color], .invert textarea, .invert select,
 .invert .invert .invert [type=text],
 .invert .invert .invert [type=password],
@@ -241,6 +250,11 @@ body {
   color: #ffffff;
   border-color: #ffffff; }
 
+.invert .invert .border-bottom,
+.invert .invert .invert .invert .border-bottom,
+.invert .invert .invert .invert .invert .invert .border-bottom,
+.invert .invert .invert .invert .invert .invert .invert .invert .border-bottom {
+  border-bottom: 1px solid #ffffff; }
 .invert .invert [type=text], .invert .invert [type=password], .invert .invert [type=date], .invert .invert [type=datetime], .invert .invert [type=datetime-local], .invert .invert [type=month], .invert .invert [type=week], .invert .invert [type=email], .invert .invert [type=number], .invert .invert [type=search], .invert .invert [type=tel], .invert .invert [type=time], .invert .invert [type=url], .invert .invert [type=color], .invert .invert textarea, .invert .invert select,
 .invert .invert .invert .invert [type=text],
 .invert .invert .invert .invert [type=password],
@@ -347,12 +361,39 @@ body {
   border-color: #000000; }
 
 /* Spacing */
+main {
+  padding-bottom: 2rem; }
+
+.row {
+  max-width: 37rem; }
+
 h1, h2, h3, h4, h5, h6 {
   line-height: 100%; }
 
 h1, h2, h3, h4, h5, h6 {
-  padding: 2rem 0;
+  padding: 1rem 0;
   margin: 0; }
+
+h1 {
+  font-size: 1.3rem; }
+
+h2 {
+  font-size: 1.2rem; }
+
+h3 {
+  font-size: 1.1rem; }
+
+h4 {
+  font-size: 1rem; }
+
+h5 {
+  font-size: 0.9rem; }
+
+h6 {
+  font-size: 0.8rem; }
+
+hr {
+  margin: 1rem auto; }
 
 ul, ol {
   margin-left: 2rem;
@@ -375,12 +416,33 @@ ul, ol {
   margin: 0 auto;
   padding: 0; }
 
-.column-height-14 .columns {
-  min-height: 14rem; }
+.small-margin-bottom {
+  margin-bottom: 1rem; }
 
 /* General */
 a {
   text-decoration: underline; }
+
+body {
+  font-family: monospace; }
+
+p {
+  text-align: justify; }
+
+.display-none {
+  display: none; }
+
+.bold {
+  font-weight: bold; }
+
+.italics {
+  font-style: italics; }
+
+.inline-block {
+  display: inline-block; }
+
+.centered {
+  margin: 0 auto; }
 
 /* Specific */
 footer.page {
