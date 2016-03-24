@@ -1,186 +1,194 @@
 /* Colors */
-/* line 17, sass/app.sass */
-.standard-fg-color, body, h1, h2, h3, h4, h5, h6, a, a:hover, a:visited, a:focus, .button:hover, .button:focus, .invert .button, .invert .invert .invert .button, .invert .invert .invert .invert .invert .button, .invert .invert .invert .invert .invert .invert .invert .button, .invert .invert, .invert .invert .invert .invert, .invert .invert .invert .invert .invert .invert, .invert .invert .invert .invert .invert .invert .invert .invert, .invert .invert h1, .invert .invert h2, .invert .invert h3, .invert .invert h4, .invert .invert h5, .invert .invert h6, .invert .invert a, .invert .invert a:hover, .invert .invert a:visited, .invert .invert a:focus, .invert .invert .invert .invert h1, .invert .invert .invert .invert h2, .invert .invert .invert .invert h3, .invert .invert .invert .invert h4, .invert .invert .invert .invert h5, .invert .invert .invert .invert h6, .invert .invert .invert .invert a, .invert .invert .invert .invert a:hover, .invert .invert .invert .invert a:visited, .invert .invert .invert .invert a:focus, .invert .invert .invert .invert .invert .invert h1, .invert .invert .invert .invert .invert .invert h2, .invert .invert .invert .invert .invert .invert h3, .invert .invert .invert .invert .invert .invert h4, .invert .invert .invert .invert .invert .invert h5, .invert .invert .invert .invert .invert .invert h6, .invert .invert .invert .invert .invert .invert a, .invert .invert .invert .invert .invert .invert a:hover, .invert .invert .invert .invert .invert .invert a:visited, .invert .invert .invert .invert .invert .invert a:focus, .invert .invert .invert .invert .invert .invert .invert .invert h1, .invert .invert .invert .invert .invert .invert .invert .invert h2, .invert .invert .invert .invert .invert .invert .invert .invert h3, .invert .invert .invert .invert .invert .invert .invert .invert h4, .invert .invert .invert .invert .invert .invert .invert .invert h5, .invert .invert .invert .invert .invert .invert .invert .invert h6, .invert .invert .invert .invert .invert .invert .invert .invert a, .invert .invert .invert .invert .invert .invert .invert .invert a:hover, .invert .invert .invert .invert .invert .invert .invert .invert a:visited, .invert .invert .invert .invert .invert .invert .invert .invert a:focus, .invert .invert .button:hover, .invert .invert .button:focus, .invert .invert .invert .invert .button:hover, .invert .invert .invert .invert .button:focus, .invert .invert .invert .invert .invert .invert .button:hover, .invert .invert .invert .invert .invert .invert .button:focus, .invert .invert .invert .invert .invert .invert .invert .invert .button:hover, .invert .invert .invert .invert .invert .invert .invert .invert .button:focus {
+/* line 19, sass/app.sass */
+.standard-fg-color, body, h1, h2, h3, h4, h5, h6, .button:hover, .button:focus, .invert .button, .invert .invert .invert .button, .invert .invert .invert .invert .invert .button, .invert .invert .invert .invert .invert .invert .invert .button, .invert .invert, .invert .invert .invert .invert, .invert .invert .invert .invert .invert .invert, .invert .invert .invert .invert .invert .invert .invert .invert, .invert .invert h1, .invert .invert h2, .invert .invert h3, .invert .invert h4, .invert .invert h5, .invert .invert h6, .invert .invert .invert .invert h1, .invert .invert .invert .invert h2, .invert .invert .invert .invert h3, .invert .invert .invert .invert h4, .invert .invert .invert .invert h5, .invert .invert .invert .invert h6, .invert .invert .invert .invert .invert .invert h1, .invert .invert .invert .invert .invert .invert h2, .invert .invert .invert .invert .invert .invert h3, .invert .invert .invert .invert .invert .invert h4, .invert .invert .invert .invert .invert .invert h5, .invert .invert .invert .invert .invert .invert h6, .invert .invert .invert .invert .invert .invert .invert .invert h1, .invert .invert .invert .invert .invert .invert .invert .invert h2, .invert .invert .invert .invert .invert .invert .invert .invert h3, .invert .invert .invert .invert .invert .invert .invert .invert h4, .invert .invert .invert .invert .invert .invert .invert .invert h5, .invert .invert .invert .invert .invert .invert .invert .invert h6, .invert .invert .button:hover, .invert .invert .button:focus, .invert .invert .invert .invert .button:hover, .invert .invert .invert .invert .button:focus, .invert .invert .invert .invert .invert .invert .button:hover, .invert .invert .invert .invert .invert .invert .button:focus, .invert .invert .invert .invert .invert .invert .invert .invert .button:hover, .invert .invert .invert .invert .invert .invert .invert .invert .button:focus {
   color: #ffffff; }
 
-/* line 20, sass/app.sass */
+/* line 22, sass/app.sass */
 .standard-bg-color, body, .button:hover, .button:focus, .invert .button, .invert .invert .invert .button, .invert .invert .invert .invert .invert .button, .invert .invert .invert .invert .invert .invert .invert .button, .invert .invert, .invert .invert .invert .invert, .invert .invert .invert .invert .invert .invert, .invert .invert .invert .invert .invert .invert .invert .invert, .invert .invert .button:hover, .invert .invert .button:focus, .invert .invert .invert .invert .button:hover, .invert .invert .invert .invert .button:focus, .invert .invert .invert .invert .invert .invert .button:hover, .invert .invert .invert .invert .invert .invert .button:focus, .invert .invert .invert .invert .invert .invert .invert .invert .button:hover, .invert .invert .invert .invert .invert .invert .invert .invert .button:focus {
   background-color: rgba(0, 0, 0, 0.98); }
 
-/* line 23, sass/app.sass */
-.inverted-fg-color, .button, .invert, .invert .invert .invert, .invert .invert .invert .invert .invert, .invert .invert .invert .invert .invert .invert .invert, .invert h1, .invert h2, .invert h3, .invert h4, .invert h5, .invert h6, .invert a, .invert a:hover, .invert a:visited, .invert a:focus, .invert .invert .invert h1, .invert .invert .invert h2, .invert .invert .invert h3, .invert .invert .invert h4, .invert .invert .invert h5, .invert .invert .invert h6, .invert .invert .invert a, .invert .invert .invert a:hover, .invert .invert .invert a:visited, .invert .invert .invert a:focus, .invert .invert .invert .invert .invert h1, .invert .invert .invert .invert .invert h2, .invert .invert .invert .invert .invert h3, .invert .invert .invert .invert .invert h4, .invert .invert .invert .invert .invert h5, .invert .invert .invert .invert .invert h6, .invert .invert .invert .invert .invert a, .invert .invert .invert .invert .invert a:hover, .invert .invert .invert .invert .invert a:visited, .invert .invert .invert .invert .invert a:focus, .invert .invert .invert .invert .invert .invert .invert h1, .invert .invert .invert .invert .invert .invert .invert h2, .invert .invert .invert .invert .invert .invert .invert h3, .invert .invert .invert .invert .invert .invert .invert h4, .invert .invert .invert .invert .invert .invert .invert h5, .invert .invert .invert .invert .invert .invert .invert h6, .invert .invert .invert .invert .invert .invert .invert a, .invert .invert .invert .invert .invert .invert .invert a:hover, .invert .invert .invert .invert .invert .invert .invert a:visited, .invert .invert .invert .invert .invert .invert .invert a:focus, .invert .button:hover, .invert .button:focus, .invert .invert .invert .button:hover, .invert .invert .invert .button:focus, .invert .invert .invert .invert .invert .button:hover, .invert .invert .invert .invert .invert .button:focus, .invert .invert .invert .invert .invert .invert .invert .button:hover, .invert .invert .invert .invert .invert .invert .invert .button:focus, .invert .invert .button, .invert .invert .invert .invert .button, .invert .invert .invert .invert .invert .invert .button, .invert .invert .invert .invert .invert .invert .invert .invert .button {
+/* line 25, sass/app.sass */
+.inverted-fg-color, .button, .invert, .invert .invert .invert, .invert .invert .invert .invert .invert, .invert .invert .invert .invert .invert .invert .invert, .invert h1, .invert h2, .invert h3, .invert h4, .invert h5, .invert h6, .invert .invert .invert h1, .invert .invert .invert h2, .invert .invert .invert h3, .invert .invert .invert h4, .invert .invert .invert h5, .invert .invert .invert h6, .invert .invert .invert .invert .invert h1, .invert .invert .invert .invert .invert h2, .invert .invert .invert .invert .invert h3, .invert .invert .invert .invert .invert h4, .invert .invert .invert .invert .invert h5, .invert .invert .invert .invert .invert h6, .invert .invert .invert .invert .invert .invert .invert h1, .invert .invert .invert .invert .invert .invert .invert h2, .invert .invert .invert .invert .invert .invert .invert h3, .invert .invert .invert .invert .invert .invert .invert h4, .invert .invert .invert .invert .invert .invert .invert h5, .invert .invert .invert .invert .invert .invert .invert h6, .invert .button:hover, .invert .button:focus, .invert .invert .invert .button:hover, .invert .invert .invert .button:focus, .invert .invert .invert .invert .invert .button:hover, .invert .invert .invert .invert .invert .button:focus, .invert .invert .invert .invert .invert .invert .invert .button:hover, .invert .invert .invert .invert .invert .invert .invert .button:focus, .invert .invert .button, .invert .invert .invert .invert .button, .invert .invert .invert .invert .invert .invert .button, .invert .invert .invert .invert .invert .invert .invert .invert .button {
   color: #000000; }
 
-/* line 26, sass/app.sass */
+/* line 28, sass/app.sass */
 .inverted-bg-color, .button, .invert, .invert .invert .invert, .invert .invert .invert .invert .invert, .invert .invert .invert .invert .invert .invert .invert, .invert .button:hover, .invert .button:focus, .invert .invert .invert .button:hover, .invert .invert .invert .button:focus, .invert .invert .invert .invert .invert .button:hover, .invert .invert .invert .invert .invert .button:focus, .invert .invert .invert .invert .invert .invert .invert .button:hover, .invert .invert .invert .invert .invert .invert .invert .button:focus, .invert .invert .button, .invert .invert .invert .invert .button, .invert .invert .invert .invert .invert .invert .button, .invert .invert .invert .invert .invert .invert .invert .invert .button {
   background-color: rgba(255, 255, 255, 0.98); }
 
-/* line 29, sass/app.sass */
+/* line 31, sass/app.sass */
 body {
   background-image: url("/images/down.gif");
   background-position: center center; }
 
-/* line 38, sass/app.sass */
+/* line 40, sass/app.sass */
+a, a:hover, a:focus {
+  color: #0000ff; }
+
+/* line 43, sass/app.sass */
+a:visited {
+  color: #008899; }
+
+/* line 46, sass/app.sass */
 .border-bottom {
   border-bottom: 1px solid #ffffff; }
 
-/* line 49, sass/app.sass */
+/* line 57, sass/app.sass */
 .transparent {
   background-color: transparent;
   border-color: transparent; }
 
-/* line 53, sass/app.sass */
+/* line 61, sass/app.sass */
 [type=text], [type=password], [type=date], [type=datetime], [type=datetime-local], [type=month], [type=week], [type=email], [type=number], [type=search], [type=tel], [type=time], [type=url], [type=color], textarea, select {
   background-color: #000000;
   color: #ffffff;
   border-color: #ffffff; }
 
-/* line 58, sass/app.sass */
+/* line 66, sass/app.sass */
 [type=text]:focus, [type=password]:focus, [type=date]:focus, [type=datetime]:focus, [type=datetime-local]:focus, [type=month]:focus, [type=week]:focus, [type=email]:focus, [type=number]:focus, [type=search]:focus, [type=tel]:focus, [type=time]:focus, [type=url]:focus, [type=color]:focus, textarea:focus, select:focus {
   background-color: #ffffff;
   color: #000000;
   border-color: #000000; }
 
-/* line 73, sass/app.sass */
+/* line 81, sass/app.sass */
 .invert .border-bottom, .invert .invert .invert .border-bottom, .invert .invert .invert .invert .invert .border-bottom, .invert .invert .invert .invert .invert .invert .invert .border-bottom {
   border-bottom: 1px solid #000000; }
-/* line 84, sass/app.sass */
+/* line 92, sass/app.sass */
 .invert [type=text], .invert [type=password], .invert [type=date], .invert [type=datetime], .invert [type=datetime-local], .invert [type=month], .invert [type=week], .invert [type=email], .invert [type=number], .invert [type=search], .invert [type=tel], .invert [type=time], .invert [type=url], .invert [type=color], .invert textarea, .invert select, .invert .invert .invert [type=text], .invert .invert .invert [type=password], .invert .invert .invert [type=date], .invert .invert .invert [type=datetime], .invert .invert .invert [type=datetime-local], .invert .invert .invert [type=month], .invert .invert .invert [type=week], .invert .invert .invert [type=email], .invert .invert .invert [type=number], .invert .invert .invert [type=search], .invert .invert .invert [type=tel], .invert .invert .invert [type=time], .invert .invert .invert [type=url], .invert .invert .invert [type=color], .invert .invert .invert textarea, .invert .invert .invert select, .invert .invert .invert .invert .invert [type=text], .invert .invert .invert .invert .invert [type=password], .invert .invert .invert .invert .invert [type=date], .invert .invert .invert .invert .invert [type=datetime], .invert .invert .invert .invert .invert [type=datetime-local], .invert .invert .invert .invert .invert [type=month], .invert .invert .invert .invert .invert [type=week], .invert .invert .invert .invert .invert [type=email], .invert .invert .invert .invert .invert [type=number], .invert .invert .invert .invert .invert [type=search], .invert .invert .invert .invert .invert [type=tel], .invert .invert .invert .invert .invert [type=time], .invert .invert .invert .invert .invert [type=url], .invert .invert .invert .invert .invert [type=color], .invert .invert .invert .invert .invert textarea, .invert .invert .invert .invert .invert select, .invert .invert .invert .invert .invert .invert .invert [type=text], .invert .invert .invert .invert .invert .invert .invert [type=password], .invert .invert .invert .invert .invert .invert .invert [type=date], .invert .invert .invert .invert .invert .invert .invert [type=datetime], .invert .invert .invert .invert .invert .invert .invert [type=datetime-local], .invert .invert .invert .invert .invert .invert .invert [type=month], .invert .invert .invert .invert .invert .invert .invert [type=week], .invert .invert .invert .invert .invert .invert .invert [type=email], .invert .invert .invert .invert .invert .invert .invert [type=number], .invert .invert .invert .invert .invert .invert .invert [type=search], .invert .invert .invert .invert .invert .invert .invert [type=tel], .invert .invert .invert .invert .invert .invert .invert [type=time], .invert .invert .invert .invert .invert .invert .invert [type=url], .invert .invert .invert .invert .invert .invert .invert [type=color], .invert .invert .invert .invert .invert .invert .invert textarea, .invert .invert .invert .invert .invert .invert .invert select {
   background-color: #ffffff;
   color: #000000;
   border-color: #000000; }
-/* line 89, sass/app.sass */
+/* line 97, sass/app.sass */
 .invert [type=text]:focus, .invert [type=password]:focus, .invert [type=date]:focus, .invert [type=datetime]:focus, .invert [type=datetime-local]:focus, .invert [type=month]:focus, .invert [type=week]:focus, .invert [type=email]:focus, .invert [type=number]:focus, .invert [type=search]:focus, .invert [type=tel]:focus, .invert [type=time]:focus, .invert [type=url]:focus, .invert [type=color]:focus, .invert textarea:focus, .invert select:focus, .invert .invert .invert [type=text]:focus, .invert .invert .invert [type=password]:focus, .invert .invert .invert [type=date]:focus, .invert .invert .invert [type=datetime]:focus, .invert .invert .invert [type=datetime-local]:focus, .invert .invert .invert [type=month]:focus, .invert .invert .invert [type=week]:focus, .invert .invert .invert [type=email]:focus, .invert .invert .invert [type=number]:focus, .invert .invert .invert [type=search]:focus, .invert .invert .invert [type=tel]:focus, .invert .invert .invert [type=time]:focus, .invert .invert .invert [type=url]:focus, .invert .invert .invert [type=color]:focus, .invert .invert .invert textarea:focus, .invert .invert .invert select:focus, .invert .invert .invert .invert .invert [type=text]:focus, .invert .invert .invert .invert .invert [type=password]:focus, .invert .invert .invert .invert .invert [type=date]:focus, .invert .invert .invert .invert .invert [type=datetime]:focus, .invert .invert .invert .invert .invert [type=datetime-local]:focus, .invert .invert .invert .invert .invert [type=month]:focus, .invert .invert .invert .invert .invert [type=week]:focus, .invert .invert .invert .invert .invert [type=email]:focus, .invert .invert .invert .invert .invert [type=number]:focus, .invert .invert .invert .invert .invert [type=search]:focus, .invert .invert .invert .invert .invert [type=tel]:focus, .invert .invert .invert .invert .invert [type=time]:focus, .invert .invert .invert .invert .invert [type=url]:focus, .invert .invert .invert .invert .invert [type=color]:focus, .invert .invert .invert .invert .invert textarea:focus, .invert .invert .invert .invert .invert select:focus, .invert .invert .invert .invert .invert .invert .invert [type=text]:focus, .invert .invert .invert .invert .invert .invert .invert [type=password]:focus, .invert .invert .invert .invert .invert .invert .invert [type=date]:focus, .invert .invert .invert .invert .invert .invert .invert [type=datetime]:focus, .invert .invert .invert .invert .invert .invert .invert [type=datetime-local]:focus, .invert .invert .invert .invert .invert .invert .invert [type=month]:focus, .invert .invert .invert .invert .invert .invert .invert [type=week]:focus, .invert .invert .invert .invert .invert .invert .invert [type=email]:focus, .invert .invert .invert .invert .invert .invert .invert [type=number]:focus, .invert .invert .invert .invert .invert .invert .invert [type=search]:focus, .invert .invert .invert .invert .invert .invert .invert [type=tel]:focus, .invert .invert .invert .invert .invert .invert .invert [type=time]:focus, .invert .invert .invert .invert .invert .invert .invert [type=url]:focus, .invert .invert .invert .invert .invert .invert .invert [type=color]:focus, .invert .invert .invert .invert .invert .invert .invert textarea:focus, .invert .invert .invert .invert .invert .invert .invert select:focus {
   background-color: #000000;
   color: #ffffff;
   border-color: #ffffff; }
 
-/* line 106, sass/app.sass */
+/* line 114, sass/app.sass */
 .invert .invert .border-bottom, .invert .invert .invert .invert .border-bottom, .invert .invert .invert .invert .invert .invert .border-bottom, .invert .invert .invert .invert .invert .invert .invert .invert .border-bottom {
   border-bottom: 1px solid #ffffff; }
-/* line 117, sass/app.sass */
+/* line 125, sass/app.sass */
 .invert .invert [type=text], .invert .invert [type=password], .invert .invert [type=date], .invert .invert [type=datetime], .invert .invert [type=datetime-local], .invert .invert [type=month], .invert .invert [type=week], .invert .invert [type=email], .invert .invert [type=number], .invert .invert [type=search], .invert .invert [type=tel], .invert .invert [type=time], .invert .invert [type=url], .invert .invert [type=color], .invert .invert textarea, .invert .invert select, .invert .invert .invert .invert [type=text], .invert .invert .invert .invert [type=password], .invert .invert .invert .invert [type=date], .invert .invert .invert .invert [type=datetime], .invert .invert .invert .invert [type=datetime-local], .invert .invert .invert .invert [type=month], .invert .invert .invert .invert [type=week], .invert .invert .invert .invert [type=email], .invert .invert .invert .invert [type=number], .invert .invert .invert .invert [type=search], .invert .invert .invert .invert [type=tel], .invert .invert .invert .invert [type=time], .invert .invert .invert .invert [type=url], .invert .invert .invert .invert [type=color], .invert .invert .invert .invert textarea, .invert .invert .invert .invert select, .invert .invert .invert .invert .invert .invert [type=text], .invert .invert .invert .invert .invert .invert [type=password], .invert .invert .invert .invert .invert .invert [type=date], .invert .invert .invert .invert .invert .invert [type=datetime], .invert .invert .invert .invert .invert .invert [type=datetime-local], .invert .invert .invert .invert .invert .invert [type=month], .invert .invert .invert .invert .invert .invert [type=week], .invert .invert .invert .invert .invert .invert [type=email], .invert .invert .invert .invert .invert .invert [type=number], .invert .invert .invert .invert .invert .invert [type=search], .invert .invert .invert .invert .invert .invert [type=tel], .invert .invert .invert .invert .invert .invert [type=time], .invert .invert .invert .invert .invert .invert [type=url], .invert .invert .invert .invert .invert .invert [type=color], .invert .invert .invert .invert .invert .invert textarea, .invert .invert .invert .invert .invert .invert select, .invert .invert .invert .invert .invert .invert .invert .invert [type=text], .invert .invert .invert .invert .invert .invert .invert .invert [type=password], .invert .invert .invert .invert .invert .invert .invert .invert [type=date], .invert .invert .invert .invert .invert .invert .invert .invert [type=datetime], .invert .invert .invert .invert .invert .invert .invert .invert [type=datetime-local], .invert .invert .invert .invert .invert .invert .invert .invert [type=month], .invert .invert .invert .invert .invert .invert .invert .invert [type=week], .invert .invert .invert .invert .invert .invert .invert .invert [type=email], .invert .invert .invert .invert .invert .invert .invert .invert [type=number], .invert .invert .invert .invert .invert .invert .invert .invert [type=search], .invert .invert .invert .invert .invert .invert .invert .invert [type=tel], .invert .invert .invert .invert .invert .invert .invert .invert [type=time], .invert .invert .invert .invert .invert .invert .invert .invert [type=url], .invert .invert .invert .invert .invert .invert .invert .invert [type=color], .invert .invert .invert .invert .invert .invert .invert .invert textarea, .invert .invert .invert .invert .invert .invert .invert .invert select {
   background-color: #000000;
   color: #ffffff;
   border-color: #ffffff; }
-/* line 122, sass/app.sass */
+/* line 130, sass/app.sass */
 .invert .invert [type=text]:focus, .invert .invert [type=password]:focus, .invert .invert [type=date]:focus, .invert .invert [type=datetime]:focus, .invert .invert [type=datetime-local]:focus, .invert .invert [type=month]:focus, .invert .invert [type=week]:focus, .invert .invert [type=email]:focus, .invert .invert [type=number]:focus, .invert .invert [type=search]:focus, .invert .invert [type=tel]:focus, .invert .invert [type=time]:focus, .invert .invert [type=url]:focus, .invert .invert [type=color]:focus, .invert .invert textarea:focus, .invert .invert select:focus, .invert .invert .invert .invert [type=text]:focus, .invert .invert .invert .invert [type=password]:focus, .invert .invert .invert .invert [type=date]:focus, .invert .invert .invert .invert [type=datetime]:focus, .invert .invert .invert .invert [type=datetime-local]:focus, .invert .invert .invert .invert [type=month]:focus, .invert .invert .invert .invert [type=week]:focus, .invert .invert .invert .invert [type=email]:focus, .invert .invert .invert .invert [type=number]:focus, .invert .invert .invert .invert [type=search]:focus, .invert .invert .invert .invert [type=tel]:focus, .invert .invert .invert .invert [type=time]:focus, .invert .invert .invert .invert [type=url]:focus, .invert .invert .invert .invert [type=color]:focus, .invert .invert .invert .invert textarea:focus, .invert .invert .invert .invert select:focus, .invert .invert .invert .invert .invert .invert [type=text]:focus, .invert .invert .invert .invert .invert .invert [type=password]:focus, .invert .invert .invert .invert .invert .invert [type=date]:focus, .invert .invert .invert .invert .invert .invert [type=datetime]:focus, .invert .invert .invert .invert .invert .invert [type=datetime-local]:focus, .invert .invert .invert .invert .invert .invert [type=month]:focus, .invert .invert .invert .invert .invert .invert [type=week]:focus, .invert .invert .invert .invert .invert .invert [type=email]:focus, .invert .invert .invert .invert .invert .invert [type=number]:focus, .invert .invert .invert .invert .invert .invert [type=search]:focus, .invert .invert .invert .invert .invert .invert [type=tel]:focus, .invert .invert .invert .invert .invert .invert [type=time]:focus, .invert .invert .invert .invert .invert .invert [type=url]:focus, .invert .invert .invert .invert .invert .invert [type=color]:focus, .invert .invert .invert .invert .invert .invert textarea:focus, .invert .invert .invert .invert .invert .invert select:focus, .invert .invert .invert .invert .invert .invert .invert .invert [type=text]:focus, .invert .invert .invert .invert .invert .invert .invert .invert [type=password]:focus, .invert .invert .invert .invert .invert .invert .invert .invert [type=date]:focus, .invert .invert .invert .invert .invert .invert .invert .invert [type=datetime]:focus, .invert .invert .invert .invert .invert .invert .invert .invert [type=datetime-local]:focus, .invert .invert .invert .invert .invert .invert .invert .invert [type=month]:focus, .invert .invert .invert .invert .invert .invert .invert .invert [type=week]:focus, .invert .invert .invert .invert .invert .invert .invert .invert [type=email]:focus, .invert .invert .invert .invert .invert .invert .invert .invert [type=number]:focus, .invert .invert .invert .invert .invert .invert .invert .invert [type=search]:focus, .invert .invert .invert .invert .invert .invert .invert .invert [type=tel]:focus, .invert .invert .invert .invert .invert .invert .invert .invert [type=time]:focus, .invert .invert .invert .invert .invert .invert .invert .invert [type=url]:focus, .invert .invert .invert .invert .invert .invert .invert .invert [type=color]:focus, .invert .invert .invert .invert .invert .invert .invert .invert textarea:focus, .invert .invert .invert .invert .invert .invert .invert .invert select:focus {
   background-color: #ffffff;
   color: #000000;
   border-color: #000000; }
 
 /* Spacing */
-/* line 130, sass/app.sass */
+/* line 138, sass/app.sass */
 main {
   padding-bottom: 2rem; }
 
-/* line 133, sass/app.sass */
+/* line 141, sass/app.sass */
 .row {
   max-width: 37rem; }
 
-/* line 136, sass/app.sass */
+/* line 144, sass/app.sass */
 h1, h2, h3, h4, h5, h6 {
-  line-height: 100%; }
+  line-height: 150%; }
 
-/* line 139, sass/app.sass */
+/* line 147, sass/app.sass */
 h1, h2, h3, h4, h5, h6 {
   padding: 1rem 0;
   margin: 0; }
 
-/* line 143, sass/app.sass */
+/* line 151, sass/app.sass */
 h1 {
   font-size: 1.3rem; }
 
-/* line 145, sass/app.sass */
+/* line 153, sass/app.sass */
 h2 {
   font-size: 1.2rem; }
 
-/* line 147, sass/app.sass */
+/* line 155, sass/app.sass */
 h3 {
   font-size: 1.1rem; }
 
-/* line 149, sass/app.sass */
+/* line 157, sass/app.sass */
 h4 {
   font-size: 1rem; }
 
-/* line 151, sass/app.sass */
+/* line 159, sass/app.sass */
 h5 {
   font-size: 0.9rem; }
 
-/* line 153, sass/app.sass */
+/* line 161, sass/app.sass */
 h6 {
   font-size: 0.8rem; }
 
-/* line 156, sass/app.sass */
+/* line 164, sass/app.sass */
 hr {
   margin: 1rem auto; }
 
-/* line 159, sass/app.sass */
+/* line 167, sass/app.sass */
 ul, ol {
   margin-left: 2rem;
   margin-top: 0; }
 
-/* line 163, sass/app.sass */
+/* line 171, sass/app.sass */
 .page-content {
   padding-left: 2rem;
   padding-right: 2rem; }
 
-/* line 167, sass/app.sass */
+/* line 175, sass/app.sass */
 .column:last-child:not(:first-child), .columns:last-child:not(:first-child) {
   float: left; }
 
-/* line 170, sass/app.sass */
+/* line 178, sass/app.sass */
 .no-margin {
   margin: 0 auto; }
 
-/* line 173, sass/app.sass */
+/* line 181, sass/app.sass */
 .no-padding {
   padding: 0; }
 
-/* line 176, sass/app.sass */
+/* line 184, sass/app.sass */
 .no-spacing {
   margin: 0 auto;
   padding: 0; }
 
-/* line 180, sass/app.sass */
+/* line 188, sass/app.sass */
 .small-margin-bottom {
   margin-bottom: 1rem; }
 
 /* General */
-/* line 186, sass/app.sass */
-a {
+/* line 194, sass/app.sass */
+a:hover {
   text-decoration: underline; }
 
-/* line 189, sass/app.sass */
+/* line 197, sass/app.sass */
 body {
   font-family: monospace; }
 
-/* line 192, sass/app.sass */
+/* line 200, sass/app.sass */
 p {
   text-align: justify; }
 
-/* line 195, sass/app.sass */
+/* line 203, sass/app.sass */
 .display-none {
   display: none; }
 
-/* line 198, sass/app.sass */
+/* line 206, sass/app.sass */
 .bold {
   font-weight: bold; }
 
-/* line 201, sass/app.sass */
+/* line 209, sass/app.sass */
 .italics {
-  font-style: italics; }
+  font-style: italic; }
 
-/* line 204, sass/app.sass */
+/* line 212, sass/app.sass */
 .inline-block {
   display: inline-block; }
 
-/* line 207, sass/app.sass */
+/* line 215, sass/app.sass */
 .centered {
   margin: 0 auto; }
 
 /* Specific */
-/* line 213, sass/app.sass */
+/* line 221, sass/app.sass */
 footer.page {
   text-align: center;
   padding: 2rem; }

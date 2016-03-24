@@ -1,41 +1,29 @@
 /* Colors */
-.standard-fg-color, body, h1, h2, h3, h4, h5, h6, a, a:hover, a:visited, a:focus, .button:hover, .button:focus, .invert .button,
+.standard-fg-color, body, h1, h2, h3, h4, h5, h6, .button:hover, .button:focus, .invert .button,
 .invert .invert .invert .button,
 .invert .invert .invert .invert .invert .button,
 .invert .invert .invert .invert .invert .invert .invert .button, .invert .invert,
 .invert .invert .invert .invert,
 .invert .invert .invert .invert .invert .invert,
-.invert .invert .invert .invert .invert .invert .invert .invert, .invert .invert h1, .invert .invert h2, .invert .invert h3, .invert .invert h4, .invert .invert h5, .invert .invert h6, .invert .invert a, .invert .invert a:hover, .invert .invert a:visited, .invert .invert a:focus,
+.invert .invert .invert .invert .invert .invert .invert .invert, .invert .invert h1, .invert .invert h2, .invert .invert h3, .invert .invert h4, .invert .invert h5, .invert .invert h6,
 .invert .invert .invert .invert h1,
 .invert .invert .invert .invert h2,
 .invert .invert .invert .invert h3,
 .invert .invert .invert .invert h4,
 .invert .invert .invert .invert h5,
 .invert .invert .invert .invert h6,
-.invert .invert .invert .invert a,
-.invert .invert .invert .invert a:hover,
-.invert .invert .invert .invert a:visited,
-.invert .invert .invert .invert a:focus,
 .invert .invert .invert .invert .invert .invert h1,
 .invert .invert .invert .invert .invert .invert h2,
 .invert .invert .invert .invert .invert .invert h3,
 .invert .invert .invert .invert .invert .invert h4,
 .invert .invert .invert .invert .invert .invert h5,
 .invert .invert .invert .invert .invert .invert h6,
-.invert .invert .invert .invert .invert .invert a,
-.invert .invert .invert .invert .invert .invert a:hover,
-.invert .invert .invert .invert .invert .invert a:visited,
-.invert .invert .invert .invert .invert .invert a:focus,
 .invert .invert .invert .invert .invert .invert .invert .invert h1,
 .invert .invert .invert .invert .invert .invert .invert .invert h2,
 .invert .invert .invert .invert .invert .invert .invert .invert h3,
 .invert .invert .invert .invert .invert .invert .invert .invert h4,
 .invert .invert .invert .invert .invert .invert .invert .invert h5,
-.invert .invert .invert .invert .invert .invert .invert .invert h6,
-.invert .invert .invert .invert .invert .invert .invert .invert a,
-.invert .invert .invert .invert .invert .invert .invert .invert a:hover,
-.invert .invert .invert .invert .invert .invert .invert .invert a:visited,
-.invert .invert .invert .invert .invert .invert .invert .invert a:focus, .invert .invert .button:hover, .invert .invert .button:focus,
+.invert .invert .invert .invert .invert .invert .invert .invert h6, .invert .invert .button:hover, .invert .invert .button:focus,
 .invert .invert .invert .invert .button:hover,
 .invert .invert .invert .invert .button:focus,
 .invert .invert .invert .invert .invert .invert .button:hover,
@@ -62,37 +50,25 @@
 .inverted-fg-color, .button, .invert,
 .invert .invert .invert,
 .invert .invert .invert .invert .invert,
-.invert .invert .invert .invert .invert .invert .invert, .invert h1, .invert h2, .invert h3, .invert h4, .invert h5, .invert h6, .invert a, .invert a:hover, .invert a:visited, .invert a:focus,
+.invert .invert .invert .invert .invert .invert .invert, .invert h1, .invert h2, .invert h3, .invert h4, .invert h5, .invert h6,
 .invert .invert .invert h1,
 .invert .invert .invert h2,
 .invert .invert .invert h3,
 .invert .invert .invert h4,
 .invert .invert .invert h5,
 .invert .invert .invert h6,
-.invert .invert .invert a,
-.invert .invert .invert a:hover,
-.invert .invert .invert a:visited,
-.invert .invert .invert a:focus,
 .invert .invert .invert .invert .invert h1,
 .invert .invert .invert .invert .invert h2,
 .invert .invert .invert .invert .invert h3,
 .invert .invert .invert .invert .invert h4,
 .invert .invert .invert .invert .invert h5,
 .invert .invert .invert .invert .invert h6,
-.invert .invert .invert .invert .invert a,
-.invert .invert .invert .invert .invert a:hover,
-.invert .invert .invert .invert .invert a:visited,
-.invert .invert .invert .invert .invert a:focus,
 .invert .invert .invert .invert .invert .invert .invert h1,
 .invert .invert .invert .invert .invert .invert .invert h2,
 .invert .invert .invert .invert .invert .invert .invert h3,
 .invert .invert .invert .invert .invert .invert .invert h4,
 .invert .invert .invert .invert .invert .invert .invert h5,
-.invert .invert .invert .invert .invert .invert .invert h6,
-.invert .invert .invert .invert .invert .invert .invert a,
-.invert .invert .invert .invert .invert .invert .invert a:hover,
-.invert .invert .invert .invert .invert .invert .invert a:visited,
-.invert .invert .invert .invert .invert .invert .invert a:focus, .invert .button:hover, .invert .button:focus,
+.invert .invert .invert .invert .invert .invert .invert h6, .invert .button:hover, .invert .button:focus,
 .invert .invert .invert .button:hover,
 .invert .invert .invert .button:focus,
 .invert .invert .invert .invert .invert .button:hover,
@@ -122,6 +98,12 @@
 body {
   background-image: url("/images/down.gif");
   background-position: center center; }
+
+a, a:hover, a:focus {
+  color: #0000ff; }
+
+a:visited {
+  color: #008899; }
 
 .border-bottom {
   border-bottom: 1px solid #ffffff; }
@@ -368,7 +350,7 @@ main {
   max-width: 37rem; }
 
 h1, h2, h3, h4, h5, h6 {
-  line-height: 100%; }
+  line-height: 150%; }
 
 h1, h2, h3, h4, h5, h6 {
   padding: 1rem 0;
@@ -420,7 +402,7 @@ ul, ol {
   margin-bottom: 1rem; }
 
 /* General */
-a {
+a:hover {
   text-decoration: underline; }
 
 body {
@@ -436,7 +418,7 @@ p {
   font-weight: bold; }
 
 .italics {
-  font-style: italics; }
+  font-style: italic; }
 
 .inline-block {
   display: inline-block; }
