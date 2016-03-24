@@ -192,3 +192,12 @@ p {
 footer.page {
   text-align: center;
   padding: 2rem; }
+
+/* line 225, sass/app.sass */
+.paint-art img {
+  display: block;
+  margin: 0 auto; }
+
+/* line 229, sass/app.sass */
+.paint-art .columns {
+  margin-bottom: 1rem; }

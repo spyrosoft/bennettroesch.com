@@ -431,4 +431,11 @@ footer.page {
   text-align: center;
   padding: 2rem; }
 
+.paint-art img {
+  display: block;
+  margin: 0 auto; }
+
+.paint-art .columns {
+  margin-bottom: 1rem; }
+
 /*# sourceMappingURL=app.css.map */
