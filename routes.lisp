@@ -1,5 +1,7 @@
 (load "utilities/routing.lisp")
 
+(route-directory "/videos/" "videos/" "video/webm")
+
 ;; Route / to index.html and serve it as text/html
 (route-file "/" "/" "index" "html" "text/html")
 
