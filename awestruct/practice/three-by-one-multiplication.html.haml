@@ -1,0 +1,20 @@
+---
+title: 
+layout: web-app
+---
+.small-margin-bottom
+%table.centered.no-border{:style => "border-bottom: 1px solid #ffffff;"}
+  %tr.invert
+    %td.invert{:align => "right", :colspan => "2"}
+      %h1.no-padding.no-line-height#num1
+  %tr.invert
+    %td.invert
+      %h1.no-padding.no-line-height
+        x
+    %td.invert
+      %h1.no-padding.no-line-height#num2
+.small-margin-bottom
+%input.half-width.centered.text-center#ans{:onkeyup => "check(event);", :size => "4", :type => "text"}/
+%h1#comment
+  Enter your answer.
+%script{:src => "/js/practice/three-by-one-multiplication.js", :type => "text/javascript"}

@@ -1,0 +1,17 @@
+---
+title: Master Quare Num Mnemonic
+layout: web-app
+---
+%h1#out
+  Please Enable JavaScript
+#input
+  %input.text-center.half-width.centered#in{:onkeyup => 'check_input();', :size => '2', :type => 'text'}
+%h1#counter
+%input.button#next{:onclick => 'next_digit();', :type => 'button', :value => 'Next'}
+%h1#comment
+  &nbsp;
+.small-margin-bottom
+%input.button#start_quiz_from_the_beginningBtn{ :onclick => 'start_quiz_from_the_beginning();', :type => 'button', :value => 'Start At The Beginning'}
+%label.menuTxt{:for => 'digits'} Change Number of Digits:
+%input.text-center.half-width.centered#digits.in{:maxlength => '3', :onkeyup => 'on_enter_change_number_of_digits(event);', :size => '3', :type => 'text'}
+%script{src: '/js/practice/master-quare-num-mnemonic.js'}

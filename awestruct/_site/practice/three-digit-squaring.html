@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <title>Three Digit Squaring - Bennett Roesch</title>
+    <meta content="ie=edge" http-equiv="x-ua-compatible">
+    <meta content="width=device-width, initial-scale=1" name="viewport">
+    <link href="/images/favicon.gif" rel="shortcut icon">
+    <link href="/css/foundation.min.css" rel="stylesheet">
+    <link href="/css/app.css" rel="stylesheet">
+    <link href="/css/web-app.css" rel="stylesheet">
+  </head>
+  <body>
+    <main class="row columns page-content">
+      <div class="small-margin-bottom"></div>
+      <div class="row text-input-height">
+        <div class="columns large-4 medium-4 small-4 text-right">
+          <span id="out"></span>
+          <span>
+            =
+          </span>
+        </div>
+        <div class="columns large-8 medium-8 small-8">
+          <input id="ans" onkeyup="check(event)" size="10" type="text">
+        </div>
+      </div>
+      <div class="row columns">
+        <h1 id="comment">Enter your answer into the text box.</h1>
+        <button class="button" onclick="newProblem();">
+          New One
+        </button>
+        <button class="button" onclick="setMin();">
+          Set Range
+        </button>
+        <button class="button" onclick="easier();">
+          Easier
+        </button>
+        <button class="button" onclick="harder();">
+          Harder
+        </button>
+      </div>
+      <script src="/js/practice/three-digit-squaring.js" type="text/javascript"></script>
+    </main>
+    <footer class="page row columns">
+      <a href="/" title="Home">
+        <img alt="Home" src="/images/blayk.bmp">
+      </a>
+    </footer>
+    <script src="/js/jquery.min.js"></script>
+    <script src="/js/what-input.min.js"></script>
+    <script src="/js/foundation.min.js"></script>
+    <script src="/js/app.js"></script>
+  </body>
+</html>

@@ -1,0 +1,23 @@
+---
+title: Three Digit Squaring
+layout: web-app
+---
+.small-margin-bottom
+.row.text-input-height
+  .columns.large-4.medium-4.small-4.text-right
+    %span#out
+    %span
+      \=
+  .columns.large-8.medium-8.small-8
+    %input#ans{:onkeyup => "check(event)", :size => "10", :type => "text"}
+.row.columns
+  %h1#comment Enter your answer into the text box.
+  %button.button{:onclick => "newProblem();"}
+    New One
+  %button.button{:onclick => "setMin();"}
+    Set Range
+  %button.button{:onclick => "easier();"}
+    Easier
+  %button.button{:onclick => "harder();"}
+    Harder
+%script{:src => "/js/practice/three-digit-squaring.js", :type => "text/javascript"}

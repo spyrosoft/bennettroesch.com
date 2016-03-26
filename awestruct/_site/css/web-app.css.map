@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAAA,IAAI;EACH,gBAAgB,EAAE,IAAI;EACtB,UAAU,EAAE,MAAM;;AAEnB,IAAI;EACH,gBAAgB,EAAE,IAAI",
+"sources": ["../sass/web-app.sass"],
+"names": [],
+"file": "web-app.css"
+}
