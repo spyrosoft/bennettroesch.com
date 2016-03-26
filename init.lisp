@@ -1,4 +1,5 @@
 (ql:quickload :hunchentoot)
+(ql:quickload :cl-smtp)
 
 (defpackage :bennettroesch
   (:use :common-lisp :hunchentoot))
@@ -11,6 +12,8 @@
 (defvar *hunchentoot-directory* (pathname (directory-namestring #.(or *compile-file-pathname* *load-truename*))))
 
 (defvar *web-root-directory* (merge-pathnames "awestruct/_site/" *hunchentoot-directory*))
+
+(load "private/credentials.lisp")
 
 (defvar bennettroesch-server
   (make-instance 'hunchentoot:easy-acceptor
