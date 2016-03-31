@@ -36,11 +36,12 @@ function show_quare_num_version( click_event ) {
 	}
 }
 
-$('form.contact').submit( contact_form_submission );
+$( 'form.contact' ).submit( contact_form_submission );
 
 function contact_form_submission( submission_event )
 {
 	submission_event.preventDefault();
+	$( 'form.contact button' ).attr( 'disabled', true );
 	var contact_submission_name = $( 'form.contact [name=name]' ).val();
 	var contact_submission_subject = $( 'form.contact [name=subject]' ).val();
 	var contact_submission_email = $( 'form.contact [name=email]' ).val();
@@ -59,10 +60,7 @@ function contact_form_submission( submission_event )
 	$.post( '/contact-ajax/', contact_sumbission_object )
 		.done(
 			function() {
-				$( 'form.contact [name=name]' ).val( '' );
-				$( 'form.contact [name=subject]' ).val( '' );
-				$( 'form.contact [name=email]' ).val( '' );
-				$( 'form.contact [name=message]' ).val( '' );
+				$( 'form.contact button' ).attr( 'disabled', false );
 			}
 		)
 		.success(
@@ -72,6 +70,10 @@ function contact_form_submission( submission_event )
 					response_json = JSON.parse( response_data );
 					if ( response_json[ 'success' ] ) {
 						alert( 'Thank you for contacting me!'  );
+						$( 'form.contact [name=name]' ).val( '' );
+						$( 'form.contact [name=subject]' ).val( '' );
+						$( 'form.contact [name=email]' ).val( '' );
+						$( 'form.contact [name=message]' ).val( '' );
 					} else {
 						contact_form_failed();
 					}
