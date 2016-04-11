@@ -1,4 +1,5 @@
 (load "utilities/routing.lisp")
+(load "redirects.lisp")
 
 (route-directory "/videos/" "videos/" "video/webm")
 
