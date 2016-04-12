@@ -25,4 +25,5 @@
    (qwertydvorakcolemak "/Tools/CompareQwertyToDvorakToColemak/" "http://spyrosoft.com/tools/compare-qwerty-to-dvorak-to-colemak.html")
    (qwertytodvorak "/Tools/QwertyToDvorak/" "http://spyrosoft.com/tools/qwerty-to-dvorak-translator.html")
    (factorfinder "/Tools/FactorFinder/" "http://spyrosoft.com/tools/factor-finder.html")
+   (unicodedecoder "/Tools/UnicodeDecoder/" "http://spyrosoft.com/tools/unicode-lookup.html")
    ))
