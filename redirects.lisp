@@ -22,5 +22,7 @@
    (tools "/Tools" "http://spyrosoft.com/tools.html")
    (tools-slash "/Tools/" "http://spyrosoft.com/tools.html")
    (binaryunicodeconverter "/Tools/BinaryUnicodeConverter/" "http://spyrosoft.com/tools/binary-unicode-converter.html")
+   (qwertydvorakcolemak "/Tools/CompareQwertyToDvorakToColemak/" "http://spyrosoft.com/tools/compare-qwerty-to-dvorak-to-colemak.html")
    (qwertytodvorak "/Tools/QwertyToDvorak/" "http://spyrosoft.com/tools/qwerty-to-dvorak-translator.html")
+   (factorfinder "/Tools/FactorFinder/" "http://spyrosoft.com/tools/factor-finder.html")
    ))
