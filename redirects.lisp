@@ -27,4 +27,5 @@
    (factorfinder "/Tools/FactorFinder/" "http://spyrosoft.com/tools/factor-finder.html")
    (unicodedecoder "/Tools/UnicodeDecoder/" "http://spyrosoft.com/tools/unicode-lookup.html")
    (manualcipherdecoder "/Tools/ManualCipherDecoder/" "http://spyrosoft.com/tools/manual-cipher-decoder.html")
+   (flipqwerty "/Tools/FlipQwerty/" "http://spyrosoft.com/tools/flip-qwerty.html")
    ))
