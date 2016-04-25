@@ -9,6 +9,7 @@
 
 (add-redirects
  '(
+   (gregg-image "/images/Efficiency/GreggShorthand.bmp" "/images/efficiency/gregg-shorthand.bmp")
    (about-upper "/About/" "/about.html")
    (about "/about/" "/about.html")
    (whatibelieve-upper "/About/WhatIBelieve/" "/about/what-i-believe.html")
