@@ -9,7 +9,6 @@
 
 (add-redirects
  '(
-   (gregg-image "/images/Efficiency/GreggShorthand.bmp" "/images/efficiency/gregg-shorthand.bmp")
    (about-upper "/About/" "/about.html")
    (about "/about/" "/about.html")
    (whatibelieve-upper "/About/WhatIBelieve/" "/about/what-i-believe.html")
@@ -30,4 +29,5 @@
    (morsecodetranslator "/Tools/MorseCode/" "http://spyrosoft.com/tools/morse-code-translator.html")
    (flipqwerty "/Tools/FlipQwerty/" "http://spyrosoft.com/tools/flip-qwerty.html")
    (flipdvorak "/Tools/FlipDvorak/" "http://spyrosoft.com/tools/flip-dvorak.html")
+   (huffmanencoder "/Tools/HuffmanEncoder/" "http://spyrosoft.com/tools/huffman-encoder.html")
    ))
