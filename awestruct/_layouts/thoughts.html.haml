@@ -1,0 +1,23 @@
+---
+layout: general
+---
+.row.columns
+  %h1
+    #{page.title}
+.row
+  .columns
+    ~ content
+  .columns.large-6.medium-6
+    -if page.next
+      %a{href: "/thoughts/#{page.next}.html"}
+        More Recent Post
+    -else
+      %a{href: '/thoughts.html'}
+        All Posts
+  .columns.large-6.medium-6.text-right
+    -if page.prev
+      %a{href: "/thoughts/#{page.prev}.html"}
+        Less Recent Post
+    -else
+      %a{href: '/thoughts.html'}
+        All Posts
