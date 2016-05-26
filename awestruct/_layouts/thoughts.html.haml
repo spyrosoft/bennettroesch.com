@@ -8,15 +8,15 @@ layout: general
   .columns
     ~ content
   .columns.large-6.medium-6
-    -if page.next
-      %a{href: "/thoughts/#{page.next}.html"}
+    -if page.more_recent
+      %a{href: "/thoughts/#{page.more_recent}.html"}
         More Recent Post
     -else
       %a{href: '/thoughts.html'}
         All Posts
   .columns.large-6.medium-6.text-right
-    -if page.prev
-      %a{href: "/thoughts/#{page.prev}.html"}
+    -if page.less_recent
+      %a{href: "/thoughts/#{page.less_recent}.html"}
         Less Recent Post
     -else
       %a{href: '/thoughts.html'}
