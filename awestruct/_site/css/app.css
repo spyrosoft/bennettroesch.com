@@ -407,6 +407,9 @@ ul, ol {
 .no-line-height {
   line-height: 100%; }
 
+.small-margin-top {
+  margin-top: 1rem; }
+
 .small-margin-bottom {
   margin-bottom: 1rem; }
 

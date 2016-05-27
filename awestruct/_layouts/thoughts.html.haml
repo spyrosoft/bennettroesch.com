@@ -10,14 +10,14 @@ layout: general
   .columns.large-6.medium-6
     -if page.more_recent
       %a{href: "/thoughts/#{page.more_recent}.html"}
-        More Recent Post
+        %img{src: '/images/left-arrow.svg'}
     -else
       %a{href: '/thoughts.html'}
-        All Posts
+        %img{src: '/images/circle.svg'}
   .columns.large-6.medium-6.text-right
     -if page.less_recent
       %a{href: "/thoughts/#{page.less_recent}.html"}
-        Less Recent Post
+        %img{src: '/images/right-arrow.svg'}
     -else
       %a{href: '/thoughts.html'}
-        All Posts
+        %img{src: '/images/circle.svg'}
