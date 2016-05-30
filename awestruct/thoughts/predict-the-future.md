@@ -34,4 +34,4 @@ The results of this are the same as flat out saying it. However they are harder 
 
 <!-- Self fulfilling prophecies -->
 
-There is a choice every person has to make. Either: 1) Assume the burden of investing countless time and energy in an attempt to guide the future as well as possible. Or: 2) Invest no effort at all and let whatever happens happen. Which is better under which circumstances?
+There is a choice every person can make. Either: 1) Assume the burden of investing time and energy in an attempt to guide the future. Or: 2) Invest no effort at all and let whatever happens happen. Which is better under which circumstances?
