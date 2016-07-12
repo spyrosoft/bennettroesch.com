@@ -2,7 +2,7 @@
 title: Predict The Future
 layout: thoughts
 less_recent: everyone-can-win-all-the-time
-more_recent: morality-thought-experiments
+more_recent: moral-thought-experiments
 date: 5-26-16
 ---
 The ability to predict the future is an art. An art that can be learned. Culturally we teach children at a young age that predicting the future is make believe and anyone who says that they can predict the future is silly and is probably a con artist.
