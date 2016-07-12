@@ -27,3 +27,11 @@ Ask your partner the same question six times in a row. Each time they must produ
 ## Dreams And Aspirations
 
 With a group of people of any size, have a single chiar which everyone faces. People one at a time sit in the chair and tell the rest of the group what their dreams and aspirations are.
+
+## Childhood Memories
+
+Go around in a circle and have everyone share a childhood memory. This game is especially fun to play with family. Interestingly when playing with strangers I find that about 50% of people enjoy playing this game. The other half become really sad. This is not a good friend party game.
+
+## Six X
+
+Go around in a circle and have each person ask another person a question. When that person answers, the asker asks again. And again. Six times. The person giving answers must give a different answer each time. Good questions are open ended questions like "Where do you see yourself in five years?".

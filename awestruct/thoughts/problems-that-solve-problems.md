@@ -10,6 +10,6 @@ The technique that we currently use to solve problems is to grope around for a p
 
 * The obvious answer is education. Teaching people how to solve problems, as it turns out, ends up solving lots of other problems.
 * Being a doctor solves problems that solves problems. Keeping people alive that are good at solving problems is very effective.
-* Enabling people to communicate with one another better as well.
+* Enabling people to communicate with one another better works as well.
 
 These are just a few. There are many, many more.
