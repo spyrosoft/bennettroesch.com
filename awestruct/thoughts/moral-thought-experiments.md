@@ -2,7 +2,7 @@
 title: Moral Thought Experiments
 layout: thoughts
 less_recent: predict-the-future
-date: 5-26-16
+date: 7-12-16
 ---
 The goal of these questions is for people to be able to apply their answers to real life situations as the situations come up, without having to make moral decisions under pressure. Otherwise people's intuitions may lead them astray. I don't think that there are correct or incorrect answers to most of these. The important thing is for people to think about these over time and decide for themselves.
 
