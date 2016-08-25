@@ -35,3 +35,15 @@ Go around in a circle and have everyone share a childhood memory. This game is e
 ## Six X
 
 Go around in a circle and have each person ask another person a question. Once that person answers, the asker asks the same question again. And again. Six times. The person giving answers must provide a different answer each time. Good questions are very open ended questions like "Who are you?" or "Where do you see yourself in five years?".
+
+## Repeat
+
+Similar to but harder than Reflection, Repeat is a two person game where one person says three sentences. The other person now repeats exactly, word for word, what the other person said. Switch.
+
+## If You Really Knew Me
+
+Go around in a circle. Everyone says "If you really knew me ..." and something you would know if you really knew them. This is a great game to play with your spouse.
+
+## Judgement
+
+Alternate between you and a partner giving straight up judgements you have about each other. Judgements can be good, bad, or neutral. Don't shy away from bad judgements. Hearing what people have to say is better than not. It's like having something in your teeth and someone is finally letting you know.
