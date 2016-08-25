@@ -7,14 +7,14 @@ layout: general
 .row
   .columns
     ~ content
-  .columns.large-6.medium-6
+  .columns.large-6.medium-6.small-6
     -if page.more_recent
       %a{href: "/thoughts/#{page.more_recent}.html"}
         %img{src: '/images/left-arrow.svg'}
     -else
       %a{href: '/thoughts.html'}
         %img{src: '/images/circle.svg'}
-  .columns.large-6.medium-6.text-right
+  .columns.large-6.medium-6.small-6.text-right
     -if page.less_recent
       %a{href: "/thoughts/#{page.less_recent}.html"}
         %img{src: '/images/right-arrow.svg'}

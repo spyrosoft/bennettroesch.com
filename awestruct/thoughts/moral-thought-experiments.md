@@ -20,4 +20,4 @@ Is it more important to make other people happy or to be happy yourself?
 
 One I cannot claim, a classic: A run-away train is about to hit four people on a track. There is another track with a single person on it. You have a lever which will switch the train to the second track. To switch or not to switch?
 
-Another classic: You are a doctor and you have one healthy patient and five sick patients. If you took the organs from the healthy patient and placed them in the sick patients, the healthy patient would die, but five other people would live. Would you do so?
+Another classic: You are a doctor and you have one healthy patient and four sick patients. If you took the organs from the healthy patient and placed them in the sick patients, the healthy patient would die, but five other people would live. Would you do so?
