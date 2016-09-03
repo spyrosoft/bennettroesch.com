@@ -47,3 +47,7 @@ Go around in a circle. Everyone says "If you really knew me ..." and something y
 ## Judgement
 
 Alternate between you and a partner giving straight up judgements you have about each other. Judgements can be good, bad, or neutral. Don't shy away from bad judgements. Hearing what people have to say is better than not. It's like having something in your teeth and someone is finally letting you know.
+
+## Beliefs
+
+In the same fashion as What Do You Want? and If You Really Knew Me, respond to the prompt What Do You Believe. This game may be intimidating at first, however once it is flowing the answers are very deep and interesting. Believe it or not, you believe many, many things.
