@@ -1,8 +1,7 @@
 ---
 title: Communication Games
 layout: thoughts
-more_recent: chaos-is-order-who-knew
-less_recent: what-do-you-know-that-i-dont-know
+less_recent: moral-thought-experiments
 ---
 Are you someone who revels in chatting up people at parties with small talk? I am one of the people on the receiving end who politely chats along, but counts down the seconds until I can escape. If you notice someone doing this, the chances are good that they are just like I am. Consider switching up your modus operandi once in a while by sneaking a communication game into your conversation. Communication games are very similar to small talk but are much more interesting and fun for everyone involved.
 

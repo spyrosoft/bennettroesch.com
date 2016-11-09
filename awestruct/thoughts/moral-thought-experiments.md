@@ -1,6 +1,7 @@
 ---
 title: Moral Thought Experiments
 layout: thoughts
+more_recent: communication-games
 less_recent: predict-the-future
 date: 7-12-16
 ---

@@ -1,7 +1,7 @@
 ---
 title: What Do You Know That I Don't Know?
 layout: thoughts
-more_recent: communication-games
+more_recent: chaos-is-order-who-knew
 less_recent: what-happens-when-you-are-right-and-everyone-else-is-wrong
 ---
 Everyone knows and thinks about things that other people do not. There is such an incredible missed opportunity here to teach each other more about everything. Maybe resulting in growing closer to one another or learning to understand each other in a more fundamental way.
