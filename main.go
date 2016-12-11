@@ -63,6 +63,7 @@ func permanentRedirectOldURLs(currentURL string, responseWriter http.ResponseWri
 	for oldURL, newURL := range siteData.URLPermanentRedirects {
 		if currentURL == oldURL {
 			http.Redirect(responseWriter, request, newURL, http.StatusMovedPermanently)
+			return true
 		}
 	}
 	return false
