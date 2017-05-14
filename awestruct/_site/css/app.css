@@ -1,463 +1,238 @@
 /* Colors */
-.standard-fg-color, body, h1, h2, h3, h4, h5, h6, label, .button:hover, .button:focus, .invert .button,
-.invert .invert .invert .button,
-.invert .invert .invert .invert .invert .button,
-.invert .invert .invert .invert .invert .invert .invert .button, .invert .invert,
-.invert .invert .invert .invert,
-.invert .invert .invert .invert .invert .invert,
-.invert .invert .invert .invert .invert .invert .invert .invert, .invert .invert h1, .invert .invert h2, .invert .invert h3, .invert .invert h4, .invert .invert h5, .invert .invert h6, .invert .invert label,
-.invert .invert .invert .invert h1,
-.invert .invert .invert .invert h2,
-.invert .invert .invert .invert h3,
-.invert .invert .invert .invert h4,
-.invert .invert .invert .invert h5,
-.invert .invert .invert .invert h6,
-.invert .invert .invert .invert label,
-.invert .invert .invert .invert .invert .invert h1,
-.invert .invert .invert .invert .invert .invert h2,
-.invert .invert .invert .invert .invert .invert h3,
-.invert .invert .invert .invert .invert .invert h4,
-.invert .invert .invert .invert .invert .invert h5,
-.invert .invert .invert .invert .invert .invert h6,
-.invert .invert .invert .invert .invert .invert label,
-.invert .invert .invert .invert .invert .invert .invert .invert h1,
-.invert .invert .invert .invert .invert .invert .invert .invert h2,
-.invert .invert .invert .invert .invert .invert .invert .invert h3,
-.invert .invert .invert .invert .invert .invert .invert .invert h4,
-.invert .invert .invert .invert .invert .invert .invert .invert h5,
-.invert .invert .invert .invert .invert .invert .invert .invert h6,
-.invert .invert .invert .invert .invert .invert .invert .invert label, .invert .invert .button:hover, .invert .invert .button:focus,
-.invert .invert .invert .invert .button:hover,
-.invert .invert .invert .invert .button:focus,
-.invert .invert .invert .invert .invert .invert .button:hover,
-.invert .invert .invert .invert .invert .invert .button:focus,
-.invert .invert .invert .invert .invert .invert .invert .invert .button:hover,
-.invert .invert .invert .invert .invert .invert .invert .invert .button:focus {
+/* line 19, /home/path/sites/bennettroesch.com/awestruct/css/app.sass */
+.standard-fg-color, body, h1, h2, h3, h4, h5, h6, label, .button:hover, .button:focus, .invert .button, .invert .invert .invert .button, .invert .invert .invert .invert .invert .button, .invert .invert .invert .invert .invert .invert .invert .button, .invert .invert, .invert .invert .invert .invert, .invert .invert .invert .invert .invert .invert, .invert .invert .invert .invert .invert .invert .invert .invert, .invert .invert h1, .invert .invert h2, .invert .invert h3, .invert .invert h4, .invert .invert h5, .invert .invert h6, .invert .invert label, .invert .invert .invert .invert h1, .invert .invert .invert .invert h2, .invert .invert .invert .invert h3, .invert .invert .invert .invert h4, .invert .invert .invert .invert h5, .invert .invert .invert .invert h6, .invert .invert .invert .invert label, .invert .invert .invert .invert .invert .invert h1, .invert .invert .invert .invert .invert .invert h2, .invert .invert .invert .invert .invert .invert h3, .invert .invert .invert .invert .invert .invert h4, .invert .invert .invert .invert .invert .invert h5, .invert .invert .invert .invert .invert .invert h6, .invert .invert .invert .invert .invert .invert label, .invert .invert .invert .invert .invert .invert .invert .invert h1, .invert .invert .invert .invert .invert .invert .invert .invert h2, .invert .invert .invert .invert .invert .invert .invert .invert h3, .invert .invert .invert .invert .invert .invert .invert .invert h4, .invert .invert .invert .invert .invert .invert .invert .invert h5, .invert .invert .invert .invert .invert .invert .invert .invert h6, .invert .invert .invert .invert .invert .invert .invert .invert label, .invert .invert .button:hover, .invert .invert .button:focus, .invert .invert .invert .invert .button:hover, .invert .invert .invert .invert .button:focus, .invert .invert .invert .invert .invert .invert .button:hover, .invert .invert .invert .invert .invert .invert .button:focus, .invert .invert .invert .invert .invert .invert .invert .invert .button:hover, .invert .invert .invert .invert .invert .invert .invert .invert .button:focus {
   color: #ffffff; }
 
-.standard-bg-color, body, .button:hover, .button:focus, .invert .button,
-.invert .invert .invert .button,
-.invert .invert .invert .invert .invert .button,
-.invert .invert .invert .invert .invert .invert .invert .button, .invert .invert,
-.invert .invert .invert .invert,
-.invert .invert .invert .invert .invert .invert,
-.invert .invert .invert .invert .invert .invert .invert .invert, .invert .invert .button:hover, .invert .invert .button:focus,
-.invert .invert .invert .invert .button:hover,
-.invert .invert .invert .invert .button:focus,
-.invert .invert .invert .invert .invert .invert .button:hover,
-.invert .invert .invert .invert .invert .invert .button:focus,
-.invert .invert .invert .invert .invert .invert .invert .invert .button:hover,
-.invert .invert .invert .invert .invert .invert .invert .invert .button:focus {
+/* line 22, /home/path/sites/bennettroesch.com/awestruct/css/app.sass */
+.standard-bg-color, body, .button:hover, .button:focus, .invert .button, .invert .invert .invert .button, .invert .invert .invert .invert .invert .button, .invert .invert .invert .invert .invert .invert .invert .button, .invert .invert, .invert .invert .invert .invert, .invert .invert .invert .invert .invert .invert, .invert .invert .invert .invert .invert .invert .invert .invert, .invert .invert .button:hover, .invert .invert .button:focus, .invert .invert .invert .invert .button:hover, .invert .invert .invert .invert .button:focus, .invert .invert .invert .invert .invert .invert .button:hover, .invert .invert .invert .invert .invert .invert .button:focus, .invert .invert .invert .invert .invert .invert .invert .invert .button:hover, .invert .invert .invert .invert .invert .invert .invert .invert .button:focus {
   background-color: rgba(0, 0, 0, 0.98); }
 
-.inverted-fg-color, .button, .invert,
-.invert .invert .invert,
-.invert .invert .invert .invert .invert,
-.invert .invert .invert .invert .invert .invert .invert, .invert h1, .invert h2, .invert h3, .invert h4, .invert h5, .invert h6, .invert label,
-.invert .invert .invert h1,
-.invert .invert .invert h2,
-.invert .invert .invert h3,
-.invert .invert .invert h4,
-.invert .invert .invert h5,
-.invert .invert .invert h6,
-.invert .invert .invert label,
-.invert .invert .invert .invert .invert h1,
-.invert .invert .invert .invert .invert h2,
-.invert .invert .invert .invert .invert h3,
-.invert .invert .invert .invert .invert h4,
-.invert .invert .invert .invert .invert h5,
-.invert .invert .invert .invert .invert h6,
-.invert .invert .invert .invert .invert label,
-.invert .invert .invert .invert .invert .invert .invert h1,
-.invert .invert .invert .invert .invert .invert .invert h2,
-.invert .invert .invert .invert .invert .invert .invert h3,
-.invert .invert .invert .invert .invert .invert .invert h4,
-.invert .invert .invert .invert .invert .invert .invert h5,
-.invert .invert .invert .invert .invert .invert .invert h6,
-.invert .invert .invert .invert .invert .invert .invert label, .invert .button:hover, .invert .button:focus,
-.invert .invert .invert .button:hover,
-.invert .invert .invert .button:focus,
-.invert .invert .invert .invert .invert .button:hover,
-.invert .invert .invert .invert .invert .button:focus,
-.invert .invert .invert .invert .invert .invert .invert .button:hover,
-.invert .invert .invert .invert .invert .invert .invert .button:focus, .invert .invert .button,
-.invert .invert .invert .invert .button,
-.invert .invert .invert .invert .invert .invert .button,
-.invert .invert .invert .invert .invert .invert .invert .invert .button {
+/* line 25, /home/path/sites/bennettroesch.com/awestruct/css/app.sass */
+.inverted-fg-color, .button, .invert, .invert .invert .invert, .invert .invert .invert .invert .invert, .invert .invert .invert .invert .invert .invert .invert, .invert h1, .invert h2, .invert h3, .invert h4, .invert h5, .invert h6, .invert label, .invert .invert .invert h1, .invert .invert .invert h2, .invert .invert .invert h3, .invert .invert .invert h4, .invert .invert .invert h5, .invert .invert .invert h6, .invert .invert .invert label, .invert .invert .invert .invert .invert h1, .invert .invert .invert .invert .invert h2, .invert .invert .invert .invert .invert h3, .invert .invert .invert .invert .invert h4, .invert .invert .invert .invert .invert h5, .invert .invert .invert .invert .invert h6, .invert .invert .invert .invert .invert label, .invert .invert .invert .invert .invert .invert .invert h1, .invert .invert .invert .invert .invert .invert .invert h2, .invert .invert .invert .invert .invert .invert .invert h3, .invert .invert .invert .invert .invert .invert .invert h4, .invert .invert .invert .invert .invert .invert .invert h5, .invert .invert .invert .invert .invert .invert .invert h6, .invert .invert .invert .invert .invert .invert .invert label, .invert .button:hover, .invert .button:focus, .invert .invert .invert .button:hover, .invert .invert .invert .button:focus, .invert .invert .invert .invert .invert .button:hover, .invert .invert .invert .invert .invert .button:focus, .invert .invert .invert .invert .invert .invert .invert .button:hover, .invert .invert .invert .invert .invert .invert .invert .button:focus, .invert .invert .button, .invert .invert .invert .invert .button, .invert .invert .invert .invert .invert .invert .button, .invert .invert .invert .invert .invert .invert .invert .invert .button {
   color: #000000; }
 
-.inverted-bg-color, .button, .invert,
-.invert .invert .invert,
-.invert .invert .invert .invert .invert,
-.invert .invert .invert .invert .invert .invert .invert, .invert .button:hover, .invert .button:focus,
-.invert .invert .invert .button:hover,
-.invert .invert .invert .button:focus,
-.invert .invert .invert .invert .invert .button:hover,
-.invert .invert .invert .invert .invert .button:focus,
-.invert .invert .invert .invert .invert .invert .invert .button:hover,
-.invert .invert .invert .invert .invert .invert .invert .button:focus, .invert .invert .button,
-.invert .invert .invert .invert .button,
-.invert .invert .invert .invert .invert .invert .button,
-.invert .invert .invert .invert .invert .invert .invert .invert .button {
+/* line 28, /home/path/sites/bennettroesch.com/awestruct/css/app.sass */
+.inverted-bg-color, .button, .invert, .invert .invert .invert, .invert .invert .invert .invert .invert, .invert .invert .invert .invert .invert .invert .invert, .invert .button:hover, .invert .button:focus, .invert .invert .invert .button:hover, .invert .invert .invert .button:focus, .invert .invert .invert .invert .invert .button:hover, .invert .invert .invert .invert .invert .button:focus, .invert .invert .invert .invert .invert .invert .invert .button:hover, .invert .invert .invert .invert .invert .invert .invert .button:focus, .invert .invert .button, .invert .invert .invert .invert .button, .invert .invert .invert .invert .invert .invert .button, .invert .invert .invert .invert .invert .invert .invert .invert .button {
   background-color: rgba(255, 255, 255, 0.98); }
 
+/* line 31, /home/path/sites/bennettroesch.com/awestruct/css/app.sass */
 body {
   background-image: url("/images/illusion.png");
   background-position: center center; }
 
+/* line 40, /home/path/sites/bennettroesch.com/awestruct/css/app.sass */
 a, a:hover, a:focus {
   color: #0000ff; }
 
+/* line 43, /home/path/sites/bennettroesch.com/awestruct/css/app.sass */
 a:visited {
   color: #008899; }
 
+/* line 46, /home/path/sites/bennettroesch.com/awestruct/css/app.sass */
 .border-bottom {
   border-bottom: 1px solid #ffffff; }
 
+/* line 57, /home/path/sites/bennettroesch.com/awestruct/css/app.sass */
 .transparent {
   background-color: transparent;
   border-color: transparent; }
 
+/* line 61, /home/path/sites/bennettroesch.com/awestruct/css/app.sass */
 [type=text], [type=password], [type=date], [type=datetime], [type=datetime-local], [type=month], [type=week], [type=email], [type=number], [type=search], [type=tel], [type=time], [type=url], [type=color], textarea, select {
   background-color: #000000;
   color: #ffffff;
   border-color: #ffffff; }
 
+/* line 66, /home/path/sites/bennettroesch.com/awestruct/css/app.sass */
 [type=text]:focus, [type=password]:focus, [type=date]:focus, [type=datetime]:focus, [type=datetime-local]:focus, [type=month]:focus, [type=week]:focus, [type=email]:focus, [type=number]:focus, [type=search]:focus, [type=tel]:focus, [type=time]:focus, [type=url]:focus, [type=color]:focus, textarea:focus, select:focus {
   background-color: #ffffff;
   color: #000000;
   border-color: #000000; }
 
-.invert .border-bottom,
-.invert .invert .invert .border-bottom,
-.invert .invert .invert .invert .invert .border-bottom,
-.invert .invert .invert .invert .invert .invert .invert .border-bottom {
+/* line 81, /home/path/sites/bennettroesch.com/awestruct/css/app.sass */
+.invert .border-bottom, .invert .invert .invert .border-bottom, .invert .invert .invert .invert .invert .border-bottom, .invert .invert .invert .invert .invert .invert .invert .border-bottom {
   border-bottom: 1px solid #000000; }
-.invert [type=text], .invert [type=password], .invert [type=date], .invert [type=datetime], .invert [type=datetime-local], .invert [type=month], .invert [type=week], .invert [type=email], .invert [type=number], .invert [type=search], .invert [type=tel], .invert [type=time], .invert [type=url], .invert [type=color], .invert textarea, .invert select,
-.invert .invert .invert [type=text],
-.invert .invert .invert [type=password],
-.invert .invert .invert [type=date],
-.invert .invert .invert [type=datetime],
-.invert .invert .invert [type=datetime-local],
-.invert .invert .invert [type=month],
-.invert .invert .invert [type=week],
-.invert .invert .invert [type=email],
-.invert .invert .invert [type=number],
-.invert .invert .invert [type=search],
-.invert .invert .invert [type=tel],
-.invert .invert .invert [type=time],
-.invert .invert .invert [type=url],
-.invert .invert .invert [type=color],
-.invert .invert .invert textarea,
-.invert .invert .invert select,
-.invert .invert .invert .invert .invert [type=text],
-.invert .invert .invert .invert .invert [type=password],
-.invert .invert .invert .invert .invert [type=date],
-.invert .invert .invert .invert .invert [type=datetime],
-.invert .invert .invert .invert .invert [type=datetime-local],
-.invert .invert .invert .invert .invert [type=month],
-.invert .invert .invert .invert .invert [type=week],
-.invert .invert .invert .invert .invert [type=email],
-.invert .invert .invert .invert .invert [type=number],
-.invert .invert .invert .invert .invert [type=search],
-.invert .invert .invert .invert .invert [type=tel],
-.invert .invert .invert .invert .invert [type=time],
-.invert .invert .invert .invert .invert [type=url],
-.invert .invert .invert .invert .invert [type=color],
-.invert .invert .invert .invert .invert textarea,
-.invert .invert .invert .invert .invert select,
-.invert .invert .invert .invert .invert .invert .invert [type=text],
-.invert .invert .invert .invert .invert .invert .invert [type=password],
-.invert .invert .invert .invert .invert .invert .invert [type=date],
-.invert .invert .invert .invert .invert .invert .invert [type=datetime],
-.invert .invert .invert .invert .invert .invert .invert [type=datetime-local],
-.invert .invert .invert .invert .invert .invert .invert [type=month],
-.invert .invert .invert .invert .invert .invert .invert [type=week],
-.invert .invert .invert .invert .invert .invert .invert [type=email],
-.invert .invert .invert .invert .invert .invert .invert [type=number],
-.invert .invert .invert .invert .invert .invert .invert [type=search],
-.invert .invert .invert .invert .invert .invert .invert [type=tel],
-.invert .invert .invert .invert .invert .invert .invert [type=time],
-.invert .invert .invert .invert .invert .invert .invert [type=url],
-.invert .invert .invert .invert .invert .invert .invert [type=color],
-.invert .invert .invert .invert .invert .invert .invert textarea,
-.invert .invert .invert .invert .invert .invert .invert select {
+/* line 92, /home/path/sites/bennettroesch.com/awestruct/css/app.sass */
+.invert [type=text], .invert [type=password], .invert [type=date], .invert [type=datetime], .invert [type=datetime-local], .invert [type=month], .invert [type=week], .invert [type=email], .invert [type=number], .invert [type=search], .invert [type=tel], .invert [type=time], .invert [type=url], .invert [type=color], .invert textarea, .invert select, .invert .invert .invert [type=text], .invert .invert .invert [type=password], .invert .invert .invert [type=date], .invert .invert .invert [type=datetime], .invert .invert .invert [type=datetime-local], .invert .invert .invert [type=month], .invert .invert .invert [type=week], .invert .invert .invert [type=email], .invert .invert .invert [type=number], .invert .invert .invert [type=search], .invert .invert .invert [type=tel], .invert .invert .invert [type=time], .invert .invert .invert [type=url], .invert .invert .invert [type=color], .invert .invert .invert textarea, .invert .invert .invert select, .invert .invert .invert .invert .invert [type=text], .invert .invert .invert .invert .invert [type=password], .invert .invert .invert .invert .invert [type=date], .invert .invert .invert .invert .invert [type=datetime], .invert .invert .invert .invert .invert [type=datetime-local], .invert .invert .invert .invert .invert [type=month], .invert .invert .invert .invert .invert [type=week], .invert .invert .invert .invert .invert [type=email], .invert .invert .invert .invert .invert [type=number], .invert .invert .invert .invert .invert [type=search], .invert .invert .invert .invert .invert [type=tel], .invert .invert .invert .invert .invert [type=time], .invert .invert .invert .invert .invert [type=url], .invert .invert .invert .invert .invert [type=color], .invert .invert .invert .invert .invert textarea, .invert .invert .invert .invert .invert select, .invert .invert .invert .invert .invert .invert .invert [type=text], .invert .invert .invert .invert .invert .invert .invert [type=password], .invert .invert .invert .invert .invert .invert .invert [type=date], .invert .invert .invert .invert .invert .invert .invert [type=datetime], .invert .invert .invert .invert .invert .invert .invert [type=datetime-local], .invert .invert .invert .invert .invert .invert .invert [type=month], .invert .invert .invert .invert .invert .invert .invert [type=week], .invert .invert .invert .invert .invert .invert .invert [type=email], .invert .invert .invert .invert .invert .invert .invert [type=number], .invert .invert .invert .invert .invert .invert .invert [type=search], .invert .invert .invert .invert .invert .invert .invert [type=tel], .invert .invert .invert .invert .invert .invert .invert [type=time], .invert .invert .invert .invert .invert .invert .invert [type=url], .invert .invert .invert .invert .invert .invert .invert [type=color], .invert .invert .invert .invert .invert .invert .invert textarea, .invert .invert .invert .invert .invert .invert .invert select {
   background-color: #ffffff;
   color: #000000;
   border-color: #000000; }
-.invert [type=text]:focus, .invert [type=password]:focus, .invert [type=date]:focus, .invert [type=datetime]:focus, .invert [type=datetime-local]:focus, .invert [type=month]:focus, .invert [type=week]:focus, .invert [type=email]:focus, .invert [type=number]:focus, .invert [type=search]:focus, .invert [type=tel]:focus, .invert [type=time]:focus, .invert [type=url]:focus, .invert [type=color]:focus, .invert textarea:focus, .invert select:focus,
-.invert .invert .invert [type=text]:focus,
-.invert .invert .invert [type=password]:focus,
-.invert .invert .invert [type=date]:focus,
-.invert .invert .invert [type=datetime]:focus,
-.invert .invert .invert [type=datetime-local]:focus,
-.invert .invert .invert [type=month]:focus,
-.invert .invert .invert [type=week]:focus,
-.invert .invert .invert [type=email]:focus,
-.invert .invert .invert [type=number]:focus,
-.invert .invert .invert [type=search]:focus,
-.invert .invert .invert [type=tel]:focus,
-.invert .invert .invert [type=time]:focus,
-.invert .invert .invert [type=url]:focus,
-.invert .invert .invert [type=color]:focus,
-.invert .invert .invert textarea:focus,
-.invert .invert .invert select:focus,
-.invert .invert .invert .invert .invert [type=text]:focus,
-.invert .invert .invert .invert .invert [type=password]:focus,
-.invert .invert .invert .invert .invert [type=date]:focus,
-.invert .invert .invert .invert .invert [type=datetime]:focus,
-.invert .invert .invert .invert .invert [type=datetime-local]:focus,
-.invert .invert .invert .invert .invert [type=month]:focus,
-.invert .invert .invert .invert .invert [type=week]:focus,
-.invert .invert .invert .invert .invert [type=email]:focus,
-.invert .invert .invert .invert .invert [type=number]:focus,
-.invert .invert .invert .invert .invert [type=search]:focus,
-.invert .invert .invert .invert .invert [type=tel]:focus,
-.invert .invert .invert .invert .invert [type=time]:focus,
-.invert .invert .invert .invert .invert [type=url]:focus,
-.invert .invert .invert .invert .invert [type=color]:focus,
-.invert .invert .invert .invert .invert textarea:focus,
-.invert .invert .invert .invert .invert select:focus,
-.invert .invert .invert .invert .invert .invert .invert [type=text]:focus,
-.invert .invert .invert .invert .invert .invert .invert [type=password]:focus,
-.invert .invert .invert .invert .invert .invert .invert [type=date]:focus,
-.invert .invert .invert .invert .invert .invert .invert [type=datetime]:focus,
-.invert .invert .invert .invert .invert .invert .invert [type=datetime-local]:focus,
-.invert .invert .invert .invert .invert .invert .invert [type=month]:focus,
-.invert .invert .invert .invert .invert .invert .invert [type=week]:focus,
-.invert .invert .invert .invert .invert .invert .invert [type=email]:focus,
-.invert .invert .invert .invert .invert .invert .invert [type=number]:focus,
-.invert .invert .invert .invert .invert .invert .invert [type=search]:focus,
-.invert .invert .invert .invert .invert .invert .invert [type=tel]:focus,
-.invert .invert .invert .invert .invert .invert .invert [type=time]:focus,
-.invert .invert .invert .invert .invert .invert .invert [type=url]:focus,
-.invert .invert .invert .invert .invert .invert .invert [type=color]:focus,
-.invert .invert .invert .invert .invert .invert .invert textarea:focus,
-.invert .invert .invert .invert .invert .invert .invert select:focus {
+/* line 97, /home/path/sites/bennettroesch.com/awestruct/css/app.sass */
+.invert [type=text]:focus, .invert [type=password]:focus, .invert [type=date]:focus, .invert [type=datetime]:focus, .invert [type=datetime-local]:focus, .invert [type=month]:focus, .invert [type=week]:focus, .invert [type=email]:focus, .invert [type=number]:focus, .invert [type=search]:focus, .invert [type=tel]:focus, .invert [type=time]:focus, .invert [type=url]:focus, .invert [type=color]:focus, .invert textarea:focus, .invert select:focus, .invert .invert .invert [type=text]:focus, .invert .invert .invert [type=password]:focus, .invert .invert .invert [type=date]:focus, .invert .invert .invert [type=datetime]:focus, .invert .invert .invert [type=datetime-local]:focus, .invert .invert .invert [type=month]:focus, .invert .invert .invert [type=week]:focus, .invert .invert .invert [type=email]:focus, .invert .invert .invert [type=number]:focus, .invert .invert .invert [type=search]:focus, .invert .invert .invert [type=tel]:focus, .invert .invert .invert [type=time]:focus, .invert .invert .invert [type=url]:focus, .invert .invert .invert [type=color]:focus, .invert .invert .invert textarea:focus, .invert .invert .invert select:focus, .invert .invert .invert .invert .invert [type=text]:focus, .invert .invert .invert .invert .invert [type=password]:focus, .invert .invert .invert .invert .invert [type=date]:focus, .invert .invert .invert .invert .invert [type=datetime]:focus, .invert .invert .invert .invert .invert [type=datetime-local]:focus, .invert .invert .invert .invert .invert [type=month]:focus, .invert .invert .invert .invert .invert [type=week]:focus, .invert .invert .invert .invert .invert [type=email]:focus, .invert .invert .invert .invert .invert [type=number]:focus, .invert .invert .invert .invert .invert [type=search]:focus, .invert .invert .invert .invert .invert [type=tel]:focus, .invert .invert .invert .invert .invert [type=time]:focus, .invert .invert .invert .invert .invert [type=url]:focus, .invert .invert .invert .invert .invert [type=color]:focus, .invert .invert .invert .invert .invert textarea:focus, .invert .invert .invert .invert .invert select:focus, .invert .invert .invert .invert .invert .invert .invert [type=text]:focus, .invert .invert .invert .invert .invert .invert .invert [type=password]:focus, .invert .invert .invert .invert .invert .invert .invert [type=date]:focus, .invert .invert .invert .invert .invert .invert .invert [type=datetime]:focus, .invert .invert .invert .invert .invert .invert .invert [type=datetime-local]:focus, .invert .invert .invert .invert .invert .invert .invert [type=month]:focus, .invert .invert .invert .invert .invert .invert .invert [type=week]:focus, .invert .invert .invert .invert .invert .invert .invert [type=email]:focus, .invert .invert .invert .invert .invert .invert .invert [type=number]:focus, .invert .invert .invert .invert .invert .invert .invert [type=search]:focus, .invert .invert .invert .invert .invert .invert .invert [type=tel]:focus, .invert .invert .invert .invert .invert .invert .invert [type=time]:focus, .invert .invert .invert .invert .invert .invert .invert [type=url]:focus, .invert .invert .invert .invert .invert .invert .invert [type=color]:focus, .invert .invert .invert .invert .invert .invert .invert textarea:focus, .invert .invert .invert .invert .invert .invert .invert select:focus {
   background-color: #000000;
   color: #ffffff;
   border-color: #ffffff; }
 
-.invert .invert .border-bottom,
-.invert .invert .invert .invert .border-bottom,
-.invert .invert .invert .invert .invert .invert .border-bottom,
-.invert .invert .invert .invert .invert .invert .invert .invert .border-bottom {
+/* line 114, /home/path/sites/bennettroesch.com/awestruct/css/app.sass */
+.invert .invert .border-bottom, .invert .invert .invert .invert .border-bottom, .invert .invert .invert .invert .invert .invert .border-bottom, .invert .invert .invert .invert .invert .invert .invert .invert .border-bottom {
   border-bottom: 1px solid #ffffff; }
-.invert .invert [type=text], .invert .invert [type=password], .invert .invert [type=date], .invert .invert [type=datetime], .invert .invert [type=datetime-local], .invert .invert [type=month], .invert .invert [type=week], .invert .invert [type=email], .invert .invert [type=number], .invert .invert [type=search], .invert .invert [type=tel], .invert .invert [type=time], .invert .invert [type=url], .invert .invert [type=color], .invert .invert textarea, .invert .invert select,
-.invert .invert .invert .invert [type=text],
-.invert .invert .invert .invert [type=password],
-.invert .invert .invert .invert [type=date],
-.invert .invert .invert .invert [type=datetime],
-.invert .invert .invert .invert [type=datetime-local],
-.invert .invert .invert .invert [type=month],
-.invert .invert .invert .invert [type=week],
-.invert .invert .invert .invert [type=email],
-.invert .invert .invert .invert [type=number],
-.invert .invert .invert .invert [type=search],
-.invert .invert .invert .invert [type=tel],
-.invert .invert .invert .invert [type=time],
-.invert .invert .invert .invert [type=url],
-.invert .invert .invert .invert [type=color],
-.invert .invert .invert .invert textarea,
-.invert .invert .invert .invert select,
-.invert .invert .invert .invert .invert .invert [type=text],
-.invert .invert .invert .invert .invert .invert [type=password],
-.invert .invert .invert .invert .invert .invert [type=date],
-.invert .invert .invert .invert .invert .invert [type=datetime],
-.invert .invert .invert .invert .invert .invert [type=datetime-local],
-.invert .invert .invert .invert .invert .invert [type=month],
-.invert .invert .invert .invert .invert .invert [type=week],
-.invert .invert .invert .invert .invert .invert [type=email],
-.invert .invert .invert .invert .invert .invert [type=number],
-.invert .invert .invert .invert .invert .invert [type=search],
-.invert .invert .invert .invert .invert .invert [type=tel],
-.invert .invert .invert .invert .invert .invert [type=time],
-.invert .invert .invert .invert .invert .invert [type=url],
-.invert .invert .invert .invert .invert .invert [type=color],
-.invert .invert .invert .invert .invert .invert textarea,
-.invert .invert .invert .invert .invert .invert select,
-.invert .invert .invert .invert .invert .invert .invert .invert [type=text],
-.invert .invert .invert .invert .invert .invert .invert .invert [type=password],
-.invert .invert .invert .invert .invert .invert .invert .invert [type=date],
-.invert .invert .invert .invert .invert .invert .invert .invert [type=datetime],
-.invert .invert .invert .invert .invert .invert .invert .invert [type=datetime-local],
-.invert .invert .invert .invert .invert .invert .invert .invert [type=month],
-.invert .invert .invert .invert .invert .invert .invert .invert [type=week],
-.invert .invert .invert .invert .invert .invert .invert .invert [type=email],
-.invert .invert .invert .invert .invert .invert .invert .invert [type=number],
-.invert .invert .invert .invert .invert .invert .invert .invert [type=search],
-.invert .invert .invert .invert .invert .invert .invert .invert [type=tel],
-.invert .invert .invert .invert .invert .invert .invert .invert [type=time],
-.invert .invert .invert .invert .invert .invert .invert .invert [type=url],
-.invert .invert .invert .invert .invert .invert .invert .invert [type=color],
-.invert .invert .invert .invert .invert .invert .invert .invert textarea,
-.invert .invert .invert .invert .invert .invert .invert .invert select {
+/* line 125, /home/path/sites/bennettroesch.com/awestruct/css/app.sass */
+.invert .invert [type=text], .invert .invert [type=password], .invert .invert [type=date], .invert .invert [type=datetime], .invert .invert [type=datetime-local], .invert .invert [type=month], .invert .invert [type=week], .invert .invert [type=email], .invert .invert [type=number], .invert .invert [type=search], .invert .invert [type=tel], .invert .invert [type=time], .invert .invert [type=url], .invert .invert [type=color], .invert .invert textarea, .invert .invert select, .invert .invert .invert .invert [type=text], .invert .invert .invert .invert [type=password], .invert .invert .invert .invert [type=date], .invert .invert .invert .invert [type=datetime], .invert .invert .invert .invert [type=datetime-local], .invert .invert .invert .invert [type=month], .invert .invert .invert .invert [type=week], .invert .invert .invert .invert [type=email], .invert .invert .invert .invert [type=number], .invert .invert .invert .invert [type=search], .invert .invert .invert .invert [type=tel], .invert .invert .invert .invert [type=time], .invert .invert .invert .invert [type=url], .invert .invert .invert .invert [type=color], .invert .invert .invert .invert textarea, .invert .invert .invert .invert select, .invert .invert .invert .invert .invert .invert [type=text], .invert .invert .invert .invert .invert .invert [type=password], .invert .invert .invert .invert .invert .invert [type=date], .invert .invert .invert .invert .invert .invert [type=datetime], .invert .invert .invert .invert .invert .invert [type=datetime-local], .invert .invert .invert .invert .invert .invert [type=month], .invert .invert .invert .invert .invert .invert [type=week], .invert .invert .invert .invert .invert .invert [type=email], .invert .invert .invert .invert .invert .invert [type=number], .invert .invert .invert .invert .invert .invert [type=search], .invert .invert .invert .invert .invert .invert [type=tel], .invert .invert .invert .invert .invert .invert [type=time], .invert .invert .invert .invert .invert .invert [type=url], .invert .invert .invert .invert .invert .invert [type=color], .invert .invert .invert .invert .invert .invert textarea, .invert .invert .invert .invert .invert .invert select, .invert .invert .invert .invert .invert .invert .invert .invert [type=text], .invert .invert .invert .invert .invert .invert .invert .invert [type=password], .invert .invert .invert .invert .invert .invert .invert .invert [type=date], .invert .invert .invert .invert .invert .invert .invert .invert [type=datetime], .invert .invert .invert .invert .invert .invert .invert .invert [type=datetime-local], .invert .invert .invert .invert .invert .invert .invert .invert [type=month], .invert .invert .invert .invert .invert .invert .invert .invert [type=week], .invert .invert .invert .invert .invert .invert .invert .invert [type=email], .invert .invert .invert .invert .invert .invert .invert .invert [type=number], .invert .invert .invert .invert .invert .invert .invert .invert [type=search], .invert .invert .invert .invert .invert .invert .invert .invert [type=tel], .invert .invert .invert .invert .invert .invert .invert .invert [type=time], .invert .invert .invert .invert .invert .invert .invert .invert [type=url], .invert .invert .invert .invert .invert .invert .invert .invert [type=color], .invert .invert .invert .invert .invert .invert .invert .invert textarea, .invert .invert .invert .invert .invert .invert .invert .invert select {
   background-color: #000000;
   color: #ffffff;
   border-color: #ffffff; }
-.invert .invert [type=text]:focus, .invert .invert [type=password]:focus, .invert .invert [type=date]:focus, .invert .invert [type=datetime]:focus, .invert .invert [type=datetime-local]:focus, .invert .invert [type=month]:focus, .invert .invert [type=week]:focus, .invert .invert [type=email]:focus, .invert .invert [type=number]:focus, .invert .invert [type=search]:focus, .invert .invert [type=tel]:focus, .invert .invert [type=time]:focus, .invert .invert [type=url]:focus, .invert .invert [type=color]:focus, .invert .invert textarea:focus, .invert .invert select:focus,
-.invert .invert .invert .invert [type=text]:focus,
-.invert .invert .invert .invert [type=password]:focus,
-.invert .invert .invert .invert [type=date]:focus,
-.invert .invert .invert .invert [type=datetime]:focus,
-.invert .invert .invert .invert [type=datetime-local]:focus,
-.invert .invert .invert .invert [type=month]:focus,
-.invert .invert .invert .invert [type=week]:focus,
-.invert .invert .invert .invert [type=email]:focus,
-.invert .invert .invert .invert [type=number]:focus,
-.invert .invert .invert .invert [type=search]:focus,
-.invert .invert .invert .invert [type=tel]:focus,
-.invert .invert .invert .invert [type=time]:focus,
-.invert .invert .invert .invert [type=url]:focus,
-.invert .invert .invert .invert [type=color]:focus,
-.invert .invert .invert .invert textarea:focus,
-.invert .invert .invert .invert select:focus,
-.invert .invert .invert .invert .invert .invert [type=text]:focus,
-.invert .invert .invert .invert .invert .invert [type=password]:focus,
-.invert .invert .invert .invert .invert .invert [type=date]:focus,
-.invert .invert .invert .invert .invert .invert [type=datetime]:focus,
-.invert .invert .invert .invert .invert .invert [type=datetime-local]:focus,
-.invert .invert .invert .invert .invert .invert [type=month]:focus,
-.invert .invert .invert .invert .invert .invert [type=week]:focus,
-.invert .invert .invert .invert .invert .invert [type=email]:focus,
-.invert .invert .invert .invert .invert .invert [type=number]:focus,
-.invert .invert .invert .invert .invert .invert [type=search]:focus,
-.invert .invert .invert .invert .invert .invert [type=tel]:focus,
-.invert .invert .invert .invert .invert .invert [type=time]:focus,
-.invert .invert .invert .invert .invert .invert [type=url]:focus,
-.invert .invert .invert .invert .invert .invert [type=color]:focus,
-.invert .invert .invert .invert .invert .invert textarea:focus,
-.invert .invert .invert .invert .invert .invert select:focus,
-.invert .invert .invert .invert .invert .invert .invert .invert [type=text]:focus,
-.invert .invert .invert .invert .invert .invert .invert .invert [type=password]:focus,
-.invert .invert .invert .invert .invert .invert .invert .invert [type=date]:focus,
-.invert .invert .invert .invert .invert .invert .invert .invert [type=datetime]:focus,
-.invert .invert .invert .invert .invert .invert .invert .invert [type=datetime-local]:focus,
-.invert .invert .invert .invert .invert .invert .invert .invert [type=month]:focus,
-.invert .invert .invert .invert .invert .invert .invert .invert [type=week]:focus,
-.invert .invert .invert .invert .invert .invert .invert .invert [type=email]:focus,
-.invert .invert .invert .invert .invert .invert .invert .invert [type=number]:focus,
-.invert .invert .invert .invert .invert .invert .invert .invert [type=search]:focus,
-.invert .invert .invert .invert .invert .invert .invert .invert [type=tel]:focus,
-.invert .invert .invert .invert .invert .invert .invert .invert [type=time]:focus,
-.invert .invert .invert .invert .invert .invert .invert .invert [type=url]:focus,
-.invert .invert .invert .invert .invert .invert .invert .invert [type=color]:focus,
-.invert .invert .invert .invert .invert .invert .invert .invert textarea:focus,
-.invert .invert .invert .invert .invert .invert .invert .invert select:focus {
+/* line 130, /home/path/sites/bennettroesch.com/awestruct/css/app.sass */
+.invert .invert [type=text]:focus, .invert .invert [type=password]:focus, .invert .invert [type=date]:focus, .invert .invert [type=datetime]:focus, .invert .invert [type=datetime-local]:focus, .invert .invert [type=month]:focus, .invert .invert [type=week]:focus, .invert .invert [type=email]:focus, .invert .invert [type=number]:focus, .invert .invert [type=search]:focus, .invert .invert [type=tel]:focus, .invert .invert [type=time]:focus, .invert .invert [type=url]:focus, .invert .invert [type=color]:focus, .invert .invert textarea:focus, .invert .invert select:focus, .invert .invert .invert .invert [type=text]:focus, .invert .invert .invert .invert [type=password]:focus, .invert .invert .invert .invert [type=date]:focus, .invert .invert .invert .invert [type=datetime]:focus, .invert .invert .invert .invert [type=datetime-local]:focus, .invert .invert .invert .invert [type=month]:focus, .invert .invert .invert .invert [type=week]:focus, .invert .invert .invert .invert [type=email]:focus, .invert .invert .invert .invert [type=number]:focus, .invert .invert .invert .invert [type=search]:focus, .invert .invert .invert .invert [type=tel]:focus, .invert .invert .invert .invert [type=time]:focus, .invert .invert .invert .invert [type=url]:focus, .invert .invert .invert .invert [type=color]:focus, .invert .invert .invert .invert textarea:focus, .invert .invert .invert .invert select:focus, .invert .invert .invert .invert .invert .invert [type=text]:focus, .invert .invert .invert .invert .invert .invert [type=password]:focus, .invert .invert .invert .invert .invert .invert [type=date]:focus, .invert .invert .invert .invert .invert .invert [type=datetime]:focus, .invert .invert .invert .invert .invert .invert [type=datetime-local]:focus, .invert .invert .invert .invert .invert .invert [type=month]:focus, .invert .invert .invert .invert .invert .invert [type=week]:focus, .invert .invert .invert .invert .invert .invert [type=email]:focus, .invert .invert .invert .invert .invert .invert [type=number]:focus, .invert .invert .invert .invert .invert .invert [type=search]:focus, .invert .invert .invert .invert .invert .invert [type=tel]:focus, .invert .invert .invert .invert .invert .invert [type=time]:focus, .invert .invert .invert .invert .invert .invert [type=url]:focus, .invert .invert .invert .invert .invert .invert [type=color]:focus, .invert .invert .invert .invert .invert .invert textarea:focus, .invert .invert .invert .invert .invert .invert select:focus, .invert .invert .invert .invert .invert .invert .invert .invert [type=text]:focus, .invert .invert .invert .invert .invert .invert .invert .invert [type=password]:focus, .invert .invert .invert .invert .invert .invert .invert .invert [type=date]:focus, .invert .invert .invert .invert .invert .invert .invert .invert [type=datetime]:focus, .invert .invert .invert .invert .invert .invert .invert .invert [type=datetime-local]:focus, .invert .invert .invert .invert .invert .invert .invert .invert [type=month]:focus, .invert .invert .invert .invert .invert .invert .invert .invert [type=week]:focus, .invert .invert .invert .invert .invert .invert .invert .invert [type=email]:focus, .invert .invert .invert .invert .invert .invert .invert .invert [type=number]:focus, .invert .invert .invert .invert .invert .invert .invert .invert [type=search]:focus, .invert .invert .invert .invert .invert .invert .invert .invert [type=tel]:focus, .invert .invert .invert .invert .invert .invert .invert .invert [type=time]:focus, .invert .invert .invert .invert .invert .invert .invert .invert [type=url]:focus, .invert .invert .invert .invert .invert .invert .invert .invert [type=color]:focus, .invert .invert .invert .invert .invert .invert .invert .invert textarea:focus, .invert .invert .invert .invert .invert .invert .invert .invert select:focus {
   background-color: #ffffff;
   color: #000000;
   border-color: #000000; }
 
 /* Spacing */
+/* line 140, /home/path/sites/bennettroesch.com/awestruct/css/app.sass */
+html {
+  font-size: 20px; }
+
+/* line 143, /home/path/sites/bennettroesch.com/awestruct/css/app.sass */
 main {
   padding-bottom: 2rem; }
 
+/* line 146, /home/path/sites/bennettroesch.com/awestruct/css/app.sass */
 .row {
-  max-width: 37rem; }
+  max-width: 600px; }
 
+/* line 149, /home/path/sites/bennettroesch.com/awestruct/css/app.sass */
 h1, h2, h3, h4, h5, h6 {
   line-height: 150%; }
 
+/* line 152, /home/path/sites/bennettroesch.com/awestruct/css/app.sass */
 h1, h2, h3, h4, h5, h6 {
   padding: 1rem 0;
   margin: 0; }
 
+/* line 156, /home/path/sites/bennettroesch.com/awestruct/css/app.sass */
 h1 {
-  font-size: 1.3rem; }
+  font-size: 2.2rem; }
 
+/* line 158, /home/path/sites/bennettroesch.com/awestruct/css/app.sass */
 h2 {
+  font-size: 2rem; }
+
+/* line 160, /home/path/sites/bennettroesch.com/awestruct/css/app.sass */
+h3 {
+  font-size: 1.8rem; }
+
+/* line 162, /home/path/sites/bennettroesch.com/awestruct/css/app.sass */
+h4 {
+  font-size: 1.6rem; }
+
+/* line 164, /home/path/sites/bennettroesch.com/awestruct/css/app.sass */
+h5 {
+  font-size: 1.4rem; }
+
+/* line 166, /home/path/sites/bennettroesch.com/awestruct/css/app.sass */
+h6 {
   font-size: 1.2rem; }
 
-h3 {
-  font-size: 1.1rem; }
-
-h4 {
-  font-size: 1rem; }
-
-h5 {
-  font-size: 0.9rem; }
-
-h6 {
-  font-size: 0.8rem; }
-
+/* line 169, /home/path/sites/bennettroesch.com/awestruct/css/app.sass */
 hr {
   margin: 1rem auto; }
 
+/* line 172, /home/path/sites/bennettroesch.com/awestruct/css/app.sass */
 ul, ol {
   margin-left: 2rem;
   margin-top: 0; }
 
+/* line 176, /home/path/sites/bennettroesch.com/awestruct/css/app.sass */
 .page-content {
   padding-left: 2rem;
   padding-right: 2rem; }
 
+/* line 180, /home/path/sites/bennettroesch.com/awestruct/css/app.sass */
 .column:last-child:not(:first-child), .columns:last-child:not(:first-child) {
   float: left; }
 
+/* line 183, /home/path/sites/bennettroesch.com/awestruct/css/app.sass */
 .no-margin {
   margin: 0 auto; }
 
+/* line 186, /home/path/sites/bennettroesch.com/awestruct/css/app.sass */
 .no-padding {
   padding: 0; }
 
+/* line 189, /home/path/sites/bennettroesch.com/awestruct/css/app.sass */
 .no-spacing {
   margin: 0 auto;
   padding: 0; }
 
+/* line 193, /home/path/sites/bennettroesch.com/awestruct/css/app.sass */
 .no-line-height {
   line-height: 100%; }
 
+/* line 196, /home/path/sites/bennettroesch.com/awestruct/css/app.sass */
 .small-margin-top {
   margin-top: 1rem; }
 
+/* line 199, /home/path/sites/bennettroesch.com/awestruct/css/app.sass */
 .small-margin-bottom {
   margin-bottom: 1rem; }
 
+/* line 202, /home/path/sites/bennettroesch.com/awestruct/css/app.sass */
 .half-width {
   width: 50%; }
 
+/* line 205, /home/path/sites/bennettroesch.com/awestruct/css/app.sass */
 .text-input-height {
   line-height: 250%;
   font-size: 130%; }
 
 /* General */
+/* line 212, /home/path/sites/bennettroesch.com/awestruct/css/app.sass */
 a:hover {
   text-decoration: underline; }
 
+/* line 215, /home/path/sites/bennettroesch.com/awestruct/css/app.sass */
 body {
   font-family: monospace; }
 
+/* line 218, /home/path/sites/bennettroesch.com/awestruct/css/app.sass */
 p {
   text-align: justify; }
 
+/* line 221, /home/path/sites/bennettroesch.com/awestruct/css/app.sass */
 .display-none {
   display: none; }
 
+/* line 224, /home/path/sites/bennettroesch.com/awestruct/css/app.sass */
 .bold {
   font-weight: bold; }
 
+/* line 227, /home/path/sites/bennettroesch.com/awestruct/css/app.sass */
 .italics {
   font-style: italic; }
 
+/* line 230, /home/path/sites/bennettroesch.com/awestruct/css/app.sass */
 .inline-block {
   display: inline-block; }
 
+/* line 233, /home/path/sites/bennettroesch.com/awestruct/css/app.sass */
 .centered {
   margin: 0 auto; }
 
+/* line 237, /home/path/sites/bennettroesch.com/awestruct/css/app.sass */
 .no-border tbody {
   border: none; }
 
 /* Specific */
+/* line 243, /home/path/sites/bennettroesch.com/awestruct/css/app.sass */
 footer.page {
   text-align: center;
   padding: 2rem; }
 
+/* line 247, /home/path/sites/bennettroesch.com/awestruct/css/app.sass */
 .paint-art img {
   display: block;
   margin: 0 auto; }
 
+/* line 251, /home/path/sites/bennettroesch.com/awestruct/css/app.sass */
 .paint-art .columns {
   margin-bottom: 1rem; }
 
-/*# sourceMappingURL=app.css.map */
+/* Mobile */
+@media screen and (max-width: 600px) {
+  /* line 258, /home/path/sites/bennettroesch.com/awestruct/css/app.sass */
+  html {
+    font-size: 15px; }
+
+  /* line 261, /home/path/sites/bennettroesch.com/awestruct/css/app.sass */
+  p {
+    text-align: left; } }

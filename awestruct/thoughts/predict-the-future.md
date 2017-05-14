@@ -1,7 +1,7 @@
 ---
 title: Predict The Future
 layout: thoughts
-less_recent: everyone-can-win-all-the-time
+less_recent: giving-advice
 more_recent: moral-thought-experiments
 date: 5-26-16
 ---
@@ -9,9 +9,7 @@ The ability to predict the future is an art. An art that can be learned. Cultura
 
 Take a moment to think about what it actually means to predict the future. To some degree everyone is expected to be able to. If you put your finger on a stove top it is safe to assume that in the near future there will be a burnt finger.
 
-How about a harder one. What will happen if you are a student and you do poorly in school? The future looks a little darker. Where does this belief stem from? It is so according to the elders. For example, "It will be hard to find a good job." However the reality in situations like this is fairly vague. A large chunk of this future is left entirely up to chance. Chance flies in the face of this written-in-stone style of prediction. A better way for elders to help a student is to identify and rank What Will Happen If scenarios. What will happen if the student attends a trade school? What will happen if the student attends a university and graduates with mediocre grades? What will happen if the student gets a job after university that pays very, very well despite mediocre grades? What if the student's job consumes his or her life and he or she ends up dying lonely and pessimistic? What are all of the possible things that could happen and what are their consequences? Now which ones are likely enough to be worth mentioning? Telling a student what to do with their life is probably not going to have a good effect. Instead consider enabling the student to make decisions rather than trying to guide the student.
-
-How about a harder one. What will person x think, act, say and do when you say what you are going to say next? "What about free will?" I hear you say. "Of course there is no way to predict the future here." Hmmmm. What if your life depended on it? You could. In this case "predict the future" just means figure out the things that will happen more often than not.
+How about a harder one. What will person x think, act, say and do when you say what you are going to say next? "What about free will?" I hear you say, "Of course there is no way to predict the future here." Hmmmm. What if your life depended on it? You could. In this case "predict the future" just means figure out the things that will happen more often than not.
 
 Now comes the really tricky part. Sometimes by trying to predict the future it ends up altering what would have happened. Imagine the following scenarios where you are having a conversation about something important the person you are talking with may do soon:
 
