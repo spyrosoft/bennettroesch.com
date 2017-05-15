@@ -25,3 +25,5 @@
     %script{src: '/js/what-input.min.js'}
     %script{src: '/js/foundation.min.js'}
     %script{src: '/js/app.js'}
+    -if page.script
+      %script{src: page.script}

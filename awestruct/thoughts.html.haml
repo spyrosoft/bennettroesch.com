@@ -1,67 +1,70 @@
 ---
 title: Thoughts
 layout: general
+script: /js/thoughts.js
 ---
 .row.columns
-  %h1
-    #{page.title}
+  %h1 #{page.title}
   %hr.no-spacing
 .row.columns
   .small-margin-bottom
-  %p
-    %a{href: '/thoughts/communication-games.html'}
-      Communication Games
-  %p
-    %a{href: '/thoughts/moral-thought-experiments.html'}
-      Moral Thought Experiments
-  %p
-    %a{href: '/thoughts/predict-the-future.html'}
-      Predict The Future
-  %p
-    %a{href: '/thoughts/giving-advice.html'}
-      Giving Advice
-  %p
-    %a{href: '/thoughts/everyone-can-win-all-the-time.html'}
-      Everyone Can Win All The Time
-  %p
-    %a{href: '/thoughts/giving-up.html'}
-      Giving Up
-  %p
-    %a{href: '/thoughts/the-illusory-wall-between-us-and-i.html'}
-      The Illusory Wall Between Us And I
-  %p
-    %a{href: '/thoughts/what-dont-we-know.html'}
-      What Don't We Know
-  %p
-    %a{href: '/thoughts/i-am-whatever-you-believe-i-am.html'}
-      I Am Whatever You Believe I Am
-  %p
-    %a{href: '/thoughts/believing-what-you-say-and-think.html'}
-      Believing What You Say and Think
-  %p
-    %a{href: '/thoughts/learning-how-to-learn.html'}
-      Learning How To Learn
-  %p
-    %a{href: '/thoughts/teaching-how-to-teach.html'}
-      Teaching How To Teach
-  %p
-    %a{href: '/thoughts/you-can-do-pretty-much-anything.html'}
-      You Can Do Pretty Much Anything
-  %p
-    %a{href: '/thoughts/problems-that-solve-problems.html'}
-      Problems that Solve Problems
-  %p
-    %a{href: '/thoughts/resource-limitations-of-the-21st-century.html'}
-      Resource Limitations of the 21st Century
-  %p
-    %a{href: '/thoughts/evolution-and-the-tipping-point-of-chaos-dependence.html'}
-      Evolution And The Tipping Point Of Chaos Dependence
-  %p
-    %a{href: '/thoughts/chaos-is-order-who-knew.html'}
-      Chaos... Is Order? Who Knew?
-  %p
-    %a{href: '/thoughts/what-do-you-know-that-i-dont-know.html'}
-      What Do You Know That I Don't Know?
-  %p
-    %a{href: '/thoughts/what-happens-when-you-are-right-and-everyone-else-is-wrong.html'}
-      What Happens When You Are Right And Everyone Else Is Wrong
+  %button.button.sort-by-interesting Sort By Interesting
+  %button.button.sort-by-most-recent Sort By Most Recent
+  .thoughts
+    %p{'data-date' => '5-14-17', 'data-interesting' => 100}
+      %a{href: '/thoughts/communication-games.html'}
+        Communication Games
+    %p{'data-date' => '7-12-16', 'data-interesting' => 50}
+      %a{href: '/thoughts/moral-thought-experiments.html'}
+        Moral Thought Experiments
+    %p{'data-date' => '5-26-16', 'data-interesting' => 90}
+      %a{href: '/thoughts/predict-the-future.html'}
+        Predict The Future
+    %p{'data-date' => '5-26-16', 'data-interesting' => 90}
+      %a{href: '/thoughts/giving-advice.html'}
+        Giving Advice
+    %p{'data-date' => '4-4-16', 'data-interesting' => 40}
+      %a{href: '/thoughts/everyone-can-win-all-the-time.html'}
+        Everyone Can Win All The Time
+    %p{'data-date' => '3-1-16', 'data-interesting' => 30}
+      %a{href: '/thoughts/giving-up.html'}
+        Giving Up
+    %p{'data-date' => '2-3-16', 'data-interesting' => 60}
+      %a{href: '/thoughts/the-illusory-wall-between-us-and-i.html'}
+        The Illusory Wall Between Us And I
+    %p{'data-date' => '2-2-16', 'data-interesting' => 60}
+      %a{href: '/thoughts/what-dont-we-know.html'}
+        What Don't We Know
+    %p{'data-date' => '2-1-16', 'data-interesting' => 70}
+      %a{href: '/thoughts/i-am-whatever-you-believe-i-am.html'}
+        I Am Whatever You Believe I Am
+    %p{'data-date' => '1-30-16', 'data-interesting' => 60}
+      %a{href: '/thoughts/believing-what-you-say-and-think.html'}
+        Believing What You Say and Think
+    %p{'data-date' => '1-29-16', 'data-interesting' => 90}
+      %a{href: '/thoughts/learning-how-to-learn.html'}
+        Learning How To Learn
+    %p{'data-date' => '1-28-16', 'data-interesting' => 90}
+      %a{href: '/thoughts/teaching-how-to-teach.html'}
+        Teaching How To Teach
+    %p{'data-date' => '1-27-16', 'data-interesting' => 50}
+      %a{href: '/thoughts/you-can-do-pretty-much-anything.html'}
+        You Can Do Pretty Much Anything
+    %p{'data-date' => '1-26-16', 'data-interesting' => 80}
+      %a{href: '/thoughts/problems-that-solve-problems.html'}
+        Problems that Solve Problems
+    %p{'data-date' => '1-25-16', 'data-interesting' => 70}
+      %a{href: '/thoughts/resource-limitations-of-the-21st-century.html'}
+        Resource Limitations of the 21st Century
+    %p{'data-date' => '1-24-16', 'data-interesting' => 90}
+      %a{href: '/thoughts/evolution-and-the-tipping-point-of-chaos-dependence.html'}
+        Evolution And The Tipping Point Of Chaos Dependence
+    %p{'data-date' => '1-23-16', 'data-interesting' => 80}
+      %a{href: '/thoughts/chaos-is-order-who-knew.html'}
+        Chaos... Is Order? Who Knew?
+    %p{'data-date' => '1-22-16', 'data-interesting' => 40}
+      %a{href: '/thoughts/what-do-you-know-that-i-dont-know.html'}
+        What Do You Know That I Don't Know?
+    %p{'data-date' => '1-21-16', 'data-interesting' => 20}
+      %a{href: '/thoughts/what-happens-when-you-are-right-and-everyone-else-is-wrong.html'}
+        What Happens When You Are Right And Everyone Else Is Wrong
