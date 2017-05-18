@@ -17,7 +17,7 @@
 
 /* line 31, /home/path/sites/bennettroesch.com/awestruct/css/app.sass */
 body {
-  background-image: url("/images/long-short-fan-blades-tiled.png");
+  background-image: url("/images/blue-spiral-tile.png");
   background-position: center center; }
 
 /* line 40, /home/path/sites/bennettroesch.com/awestruct/css/app.sass */
@@ -189,50 +189,54 @@ p {
   text-align: justify; }
 
 /* line 221, /home/path/sites/bennettroesch.com/awestruct/css/app.sass */
+blockquote {
+  padding-top: 0; }
+
+/* line 224, /home/path/sites/bennettroesch.com/awestruct/css/app.sass */
 .display-none {
   display: none; }
 
-/* line 224, /home/path/sites/bennettroesch.com/awestruct/css/app.sass */
+/* line 227, /home/path/sites/bennettroesch.com/awestruct/css/app.sass */
 .bold {
   font-weight: bold; }
 
-/* line 227, /home/path/sites/bennettroesch.com/awestruct/css/app.sass */
+/* line 230, /home/path/sites/bennettroesch.com/awestruct/css/app.sass */
 .italics {
   font-style: italic; }
 
-/* line 230, /home/path/sites/bennettroesch.com/awestruct/css/app.sass */
+/* line 233, /home/path/sites/bennettroesch.com/awestruct/css/app.sass */
 .inline-block {
   display: inline-block; }
 
-/* line 233, /home/path/sites/bennettroesch.com/awestruct/css/app.sass */
+/* line 236, /home/path/sites/bennettroesch.com/awestruct/css/app.sass */
 .centered {
   margin: 0 auto; }
 
-/* line 237, /home/path/sites/bennettroesch.com/awestruct/css/app.sass */
+/* line 240, /home/path/sites/bennettroesch.com/awestruct/css/app.sass */
 .no-border tbody {
   border: none; }
 
 /* Specific */
-/* line 243, /home/path/sites/bennettroesch.com/awestruct/css/app.sass */
+/* line 246, /home/path/sites/bennettroesch.com/awestruct/css/app.sass */
 footer.page {
   text-align: center;
   padding: 2rem; }
 
-/* line 247, /home/path/sites/bennettroesch.com/awestruct/css/app.sass */
+/* line 250, /home/path/sites/bennettroesch.com/awestruct/css/app.sass */
 .paint-art img {
   display: block;
   margin: 0 auto; }
 
-/* line 251, /home/path/sites/bennettroesch.com/awestruct/css/app.sass */
+/* line 254, /home/path/sites/bennettroesch.com/awestruct/css/app.sass */
 .paint-art .columns {
   margin-bottom: 1rem; }
 
 /* Mobile */
 @media screen and (max-width: 600px) {
-  /* line 258, /home/path/sites/bennettroesch.com/awestruct/css/app.sass */
+  /* line 261, /home/path/sites/bennettroesch.com/awestruct/css/app.sass */
   html {
     font-size: 15px; }
 
-  /* line 261, /home/path/sites/bennettroesch.com/awestruct/css/app.sass */
+  /* line 264, /home/path/sites/bennettroesch.com/awestruct/css/app.sass */
   p {
     text-align: left; } }
