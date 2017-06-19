@@ -15,11 +15,11 @@ Now comes the really tricky part. Sometimes by trying to predict the future it e
 
 **No predicting the future. Just say whatever comes to mind.**
 
-Whatever was going to happen happens.
+* Whatever was going to happen happens.
 
 **Predict the future and say whatever you were going to say.**
 
-Your body language is not going to say the same thing as it would have had you not predicted the future. There is a chance that something different will happen.
+* Your body language is not going to say the same thing as it would have had you not predicted the future. There is a chance that something different will happen.
 
 **Predict the future and flat out say what your prediction is.**
 
@@ -29,8 +29,10 @@ Your body language is not going to say the same thing as it would have had you n
 
 **Predict the future and attempt to subtly guide the future towards what you think is better.**
 
-The results of this are the same as flat out saying it. However they are harder to measure.
+* The results of this are the same as flat out saying it. However they are harder to measure.
 
-<!-- Self fulfilling prophecies -->
+There is a choice every person can make. Either: 1) Assume the burden of investing time and energy in an attempt to guide the future. Or: 2) Invest no effort at all and let whatever happens happen.
 
-There is a choice every person can make. Either: 1) Assume the burden of investing time and energy in an attempt to guide the future. Or: 2) Invest no effort at all and let whatever happens happen. Which is better under which circumstances?
+Which is better under which circumstances?
+
+A similar and amazing technique is to make self fulfilling prophecies. The placebo affect can go a long way. Why not intentionally induce it? Think about potential outcomes of a situation, even seemingly far fetched ones. Pick the one you want. Believe and act like it will happen. More often than otherwise, the outcome you chose will have become the reality.

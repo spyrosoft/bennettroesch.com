@@ -4,7 +4,7 @@ layout: thoughts
 less_recent: moral-thought-experiments
 more_recent: rate-of-passage-of-time
 ---
-Are you someone who revels in chatting up people at parties with small talk? I am one of the people on the receiving end who politely chats along, but counts down the seconds until I can escape. If you notice someone doing this, the chances are good that they are just like I am. Consider switching up your modus operandi once in a while by sneaking a communication game into your conversation. Communication games are very similar to small talk but are much more interesting and fun for everyone involved.
+Are you someone who revels in chatting up people at parties with small talk? If you are one of the people on the receiving end who politely chats along while counting down the seconds until you can escape, consider switching up your modus operandi. Sneak a communication game into your conversation. Communication games are very similar to small talk but are much more interesting and fun for everyone.
 
 ## What Do You Want?
 
@@ -16,9 +16,9 @@ My favorite communication game is called "What Do You Want?". This game is good 
 
 This game is even more fun to play with people you know well - you will find that you learn things you never would have otherwise.
 
-Go around in a circle and say something that you want. "I want ...". You can say anything you like. If someone else says something that you would like them to elaborate on, ask them to. I prefer to focus on realistic things, but it is also fun when people want completely unrealistic things.
+Go around in a circle and say something that you want: "I want ...". You can say anything you like. When someone else says something you can ask them to elaborate. I prefer to focus on realistic things, but it is also fun when people want completely unrealistic things.
 
-This game has some sister games which end up completely differently after a few rounds. "What Would You Like?", "What Do You Desire?", "What Do You Believe?", etc.
+This game has some sister games as well that end up completely differently after a few rounds: "What Would You Like?", "What Do You Desire?", etc.
 
 ## Reflection
 
@@ -51,3 +51,27 @@ Alternate between you and a partner giving straight up judgements you have about
 ## Beliefs
 
 In the same fashion as What Do You Want? and If You Really Knew Me, respond to the prompt What Do You Believe. This game may be intimidating at first, however once it is flowing the answers are very deep and interesting. Believe it or not, you believe many, many things.
+
+## I Want To Believe
+
+This game is a combination of What Do You Want and What Do You Believe. Oddly it is a very dark and intense game. It is also one of the best.
+
+## Labels
+
+Generalizations often affect the way you think about people for longer than they are useful. In particular when applying a generalization to an isolated incident. Pair up with a partner. Give each label 30 seconds or so. Come up with reasonable scenarios where someone would use that lable. Say it out loud. Then say what that person actually means. Here are some words to start you off:
+
+* Any curse word
+* Genius
+* Good person
+* Crazy
+* Hero
+* Dick
+* Idiot
+* Terrible mother/father
+* Geek
+* Flake
+* Slut
+* Pal/Friend
+* Fool
+* Coward
+* Politician
